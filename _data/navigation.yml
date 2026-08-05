@@ -20,8 +20,8 @@ main:
   - title: "CV"
     url: /files/CV_JAZ.pdf
     
-  # - title: "CV"
-  #   url: /cv-json/
+   - title: "Service & Outreach"
+     url: /service_outreach/
     
   # - title: "Guide"
   #  url: /markdown/
