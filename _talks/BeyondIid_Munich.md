@@ -8,4 +8,4 @@ date: 2025-07-17
 location: "Institute of Advanced Study,Technical University Munich, Munich, Germany"
 ---
 
-https://sites.google.com/view/beyondiid13/ 
+[More information here](https://sites.google.com/view/beyondiid13/)
