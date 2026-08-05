@@ -2,7 +2,7 @@
 title: "Infinite Dimensional Optimisation Problems in Quantum Information — An operator algebra approach to the NPA Hierarchy"
 collection: talks
 type: "Invited talk"
-permalink: /talks/2014-02-01-talk-2
+permalink: /talks/Perimeter_2023
 venue: "Perimeter Institute for Theoretical Physics"
 date: 2023-02-14
 location: "Waterloo, Ontario, Canada"
