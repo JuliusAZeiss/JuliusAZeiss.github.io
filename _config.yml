@@ -23,11 +23,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Profile_pic.heic"
   name             : "Julius A. Zeiss"
   pronouns         : # example: "she/her"  
   bio              : "Quantum Information Theorist"
-  location         : "Earth"
+  location         : "Aachen, Germany"
   employer         : "RWTH Aachen"
   uri              : # URL
   email            : "julius.zeiss@icloud.com" 
