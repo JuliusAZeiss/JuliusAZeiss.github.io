@@ -84,8 +84,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+ books:
+    title: 'Books'
   manuscripts:
-    title: 'ArXiv Preprints'    
+    title: 'Journal Publications'    
   conferences:
     title: 'Conference Talks'
 
