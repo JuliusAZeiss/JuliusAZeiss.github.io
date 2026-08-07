@@ -8,4 +8,4 @@ date: 2026-04-15
 location: "University of Cologne, Cologne, Germany"
 ---
 
-[More information here](https://sites.google.com/view/beyondiid13/)
+[More information here](https://events.thp.uni-koeln.de/events/2373)
