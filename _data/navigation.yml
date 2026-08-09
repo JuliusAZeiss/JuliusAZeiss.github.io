@@ -20,8 +20,6 @@ main:
   - title: "CV"
     url: /files/CV_JAZ.pdf/
     
-  # - title: "Outreach"
-  #   url: /portfolio/
+  - title: "Teaching"
+    url: /teaching/   
     
-   - title: "Guide"
-    url: /markdown/
