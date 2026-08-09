@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Courses
+# Courses
 
 | Year | Level | Type | Title | Venue |
 |------|-------|------|-------|-------|
@@ -21,9 +21,9 @@ author_profile: true
 | 2019 | Bachelor | Tutorials | Applied physics | University of Münster |
 
 
-## Supervised students
+# Supervised students
 
-### Master's theses
+## Master's theses
 
 **Max Schrauwen** — *Semidefinite programming for non-local games*  
 Start: `2025-10` · End: `2026-10`
@@ -31,7 +31,7 @@ Start: `2025-10` · End: `2026-10`
 **Cormac Stropes** — *Decision methods for pseudo-telepathy games*  
 Start: `2025-11` · End: `2026-11`
 
-### Bachelor's theses
+## Bachelor's theses
 
 **Lennart Sauer** — *Pauli sampling: efficient regimes via group theory*  
 Start: `2026-05` · End: `2026-09`
