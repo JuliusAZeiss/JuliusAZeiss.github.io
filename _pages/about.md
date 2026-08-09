@@ -21,4 +21,8 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 ## Research
 
+New preprint: [Fixed points in de Finetti hierarchies](https://arxiv.org/abs/2607.23689/)
+
+Upcoming Talk: [A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization](https://tqc-conference.org/2026/sessions/contributed5c/) at TQC 2026 in Sherbrooke, Canada
+
 ## Miscellaneous
