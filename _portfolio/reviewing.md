@@ -14,15 +14,19 @@ related: false
 
 | Year | Conference |
 |------|------------|
-|      |            |
-|      |            |
-|      |            |
+| 2024     |   QIP         |
+| 2024     |   TQC         |
+| 2024 | ISIT |
+|  2024   |    Beyond Iid         |
+| 2023     |   TQC         |
+| 2023     |   ISIT         |
+| 2023     |   Beyond Iid          |
 
 ### Journals
 
 | Year | Journal |
 |------|---------|
-|      |         |
+|  205    |   IEEE      |
 |      |         |
 |      |         |
 
