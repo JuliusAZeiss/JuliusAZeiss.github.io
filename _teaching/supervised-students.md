@@ -1,3 +1,5 @@
+---
+
 # Supervised Students
 
 ## Master's theses
@@ -15,3 +17,5 @@ Start: `YYYY-MM` · End: `YYYY-MM`
 
 **Victoria Giri** — *Efficient sampling from Pauli coefficients*  
 Start: `YYYY-MM` · End: `YYYY-MM`
+
+---
