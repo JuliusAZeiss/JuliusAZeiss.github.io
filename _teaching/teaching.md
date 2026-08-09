@@ -10,7 +10,7 @@ author_profile: true
 | Year | Level | Type | Title |
 |------|-------|------|-------|
 | 2026 | Master|Seminar      |  Bell     |
-|      |       |      |       |
+| 2025     | Bachelor      | Tutorials   | Quantum mechanics      |
 |      |       |      |       |
 |      |       |      |       |
 |      |       |      |       |
