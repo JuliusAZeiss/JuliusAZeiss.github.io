@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Service"
-permalink: /service/
+permalink: /reviewing/
 author_profile: true
 ---
-sdfsdf s
+
 ## Reviewing
 
 ### Conferences
