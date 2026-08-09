@@ -5,6 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
+Please find below an overview of my teaching experience over the years.
+
 # Courses
 
 | Year | Level | Type | Title | Venue |
