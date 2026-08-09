@@ -3,9 +3,6 @@ layout: archive
 title: "Service"
 permalink: /service/
 author_profile: true
-share: false
-comments: false
-related: false
 ---
 
 ## Reviewing
