@@ -10,4 +10,4 @@ location: "Institute of Advanced Study,Technical University Munich, Munich, Germ
 
 [More information here](https://sites.google.com/view/beyondiid13/)
 
-[Video](https://www.youtube.com/watch?v=2_wPxCx43_Y&t=1643s)
+[Video](https://www.youtube.com/watch?v=2_wPxCx43_Y&t=1643s/)
