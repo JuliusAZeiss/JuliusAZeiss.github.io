@@ -9,7 +9,7 @@ author_profile: true
 
 | Year | Level | Type | Title |
 |------|-------|------|-------|
-|      |       |      |       |
+| 2026 | Master|Seminar      |  Bell     |
 |      |       |      |       |
 |      |       |      |       |
 |      |       |      |       |
