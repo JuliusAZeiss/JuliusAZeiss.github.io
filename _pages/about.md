@@ -11,7 +11,7 @@ I am a final year PhD student in quantum information theory supervised by Prof. 
 
 My research lies in quantum information theory, at its interface with convex optimization and mathematical physics. I develop quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies to obtain efficient algorithms with certifiable guarantees for problems such as approximating quantum correlations in nonlocal games, approximate quantum error correction, and polynomial optimization. I am also interested in entropic quantities in quantum Shannon theory. 
 
-I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see Talks.
+I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
 
 As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. I am committed to strengthening Europe's competitiveness in AI-supported fundamental research — furthering our understanding of nature while helping European AI companies compete globally.
 
