@@ -5,6 +5,8 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+Below, I provide an overview of my outreach activities and academic service throughout my academic career.
+
 ## Reviewing
 
 ### Conferences
