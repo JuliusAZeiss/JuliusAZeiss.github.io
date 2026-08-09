@@ -26,15 +26,15 @@ author_profile: true
 ### Master's theses
 
 **Max Schrauwen** — *Semidefinite programming for non-local games*  
-Start: `YYYY-MM` · End: `YYYY-MM`
+Start: `2025-10` · End: `2026-10`
 
 **Cormac Stropes** — *Decision methods for pseudo-telepathy games*  
-Start: `YYYY-MM` · End: `YYYY-MM`
+Start: `2025-11` · End: `2026-11`
 
 ### Bachelor's theses
 
 **Lennart Sauer** — *Pauli sampling: efficient regimes via group theory*  
-Start: `YYYY-MM` · End: `YYYY-MM`
+Start: `2026-05` · End: `2026-09`
 
 **Victoria Giri** — *Efficient sampling from Pauli coefficients*  
-Start: `YYYY-MM` · End: `YYYY-MM`
+Start: `2024-07` · End: `2024-04`
