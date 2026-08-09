@@ -14,6 +14,8 @@ related: false
 
 | Year | Conference |
 |------|------------|
+| 2025     |   TQC         |
+| 2025     |   ISIT         |
 | 2024     |   QIP         |
 | 2024     |   TQC         |
 | 2024 | ISIT |
@@ -27,8 +29,6 @@ related: false
 | Year | Journal |
 |------|---------|
 |  205    |   IEEE      |
-|      |         |
-|      |         |
 
 ## Outreach
 
