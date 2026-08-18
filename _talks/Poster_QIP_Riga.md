@@ -1,7 +1,7 @@
 ---
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
-type: "Invited talk"
+type: "Poster"
 permalink: /talks/Poster_QIP_Riga
 venue: "29th Annual Quantum Information Processing Conference 2026"
 date: 2026-01-26
