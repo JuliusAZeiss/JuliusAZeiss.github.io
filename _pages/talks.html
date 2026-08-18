@@ -1,17 +1,13 @@
----
-layout: archive
-title: "Talks and presentations"
-permalink: /talks/
-author_profile: true
----
+--- layout: archive title: "Talks and presentations" permalink: /talks/ author_profile: true --- {% if site.talkmap_link == true %}
+See a map of all the places I've given a talk!
 
-{% if site.talkmap_link == true %}
+{% endif %} {% assign posters = site.talks | where: "type", "Poster" %} {% assign coauthor = site.talks | where: "type", "Co-author talk" %} {% assign talks = site.talks | where_exp: "item", "item.type != 'Poster'" | where_exp: "item", "item.type != 'Co-author talk'" %} {% if talks.size > 0 %}
+Talks
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% for post in talks reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %} {% if posters.size > 0 %}
+Posters
 
-{% endif %}
+{% for post in posters reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %} {% if coauthor.size > 0 %}
+Talks given by co-authors
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
-
+{% for post in coauthor reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %}
