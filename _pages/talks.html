@@ -1,16 +1,10 @@
----
-layout: archive
-title: "Talks and presentations"
-permalink: /talks/
-author_profile: true
----
+--- layout: archive title: "Talks and presentations" permalink: /talks/ author_profile: true --- {% include base_path %} {% if site.talkmap_link == true %}
+See a map of all the places I've given a talk!
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% endif %} {% comment %} Every file in _talks/ carries a `type:` in its front matter. Three values are recognised here; anything else (Talk, Tutorial, Invited talk, ...) lands in the first group. type: "Poster" -> Posters type: "Co-author talk" -> Talks given by co-authors everything else -> Talks {% endcomment %} {% assign posters = site.talks | where: "type", "Poster" %} {% assign coauthor = site.talks | where: "type", "Co-author talk" %} {% assign talks = site.talks | where_exp: "item", "item.type != 'Poster' and item.type != 'Co-author talk'" %} {% if talks.size > 0 %}
+Talks
+{% for post in talks reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %} {% if posters.size > 0 %}
+Posters
+{% for post in posters reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %} {% if coauthor.size > 0 %}
+Talks given by co-authors
+{% for post in coauthor reversed %} {% include archive-single-talk.html %} {% endfor %} {% endif %}
