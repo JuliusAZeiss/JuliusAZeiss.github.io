@@ -11,7 +11,38 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
-
+{% comment %}
+  The page is split into the sections listed under `talk_category` in _config.yml
+  (in that order). A talk is assigned to a section through the `category` field of
+  its front matter; a talk without one counts as "poster" if its `type` contains
+  "Poster" and as "talk" otherwise. Within each section the entries are listed
+  newest first (site.talks is sorted by date, so we iterate over it reversed).
+{% endcomment %}
+{% if site.talk_category %}
+  {% for category in site.talk_category %}
+    {% assign title_shown = false %}
+    {% for post in site.talks reversed %}
+      {% assign post_category = post.category %}
+      {% unless post_category %}
+        {% assign post_type = post.type | downcase %}
+        {% if post_type contains "poster" %}
+          {% assign post_category = "poster" %}
+        {% else %}
+          {% assign post_category = "talk" %}
+        {% endif %}
+      {% endunless %}
+      {% if post_category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2 id="{{ category[0] }}">{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single-talk.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.talks reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endif %}

@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Poster"
+category: poster
 permalink: /talks/Poster_BeyondIid_Urbana
 venue: "University of Illinois Urbana-Champaign"
 date: 2024-07-30

@@ -2,6 +2,7 @@
 title: "Inner approximation schemes for approximate quantum error correction"
 collection: talks
 type: "Invited talk"
+category: talk
 permalink: /talks/Siegen_2023
 venue: "Siegen University"
 date: 2023-07-04

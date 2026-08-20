@@ -90,7 +90,19 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-    
+
+# Talk Category - The sections of the "Talks and presentations" page, shown in this order.
+#                 Each file in _talks/ picks its section with the `category` field of its front
+#                 matter (e.g. `category: coauthor-talk`). Entries without a `category` fall back
+#                 to "poster" if their `type` contains "Poster", and to "talk" otherwise.
+talk_category:
+  talk:
+    title: 'Talks'
+  coauthor-talk:
+    title: 'Talks given by co-authors'
+  poster:
+    title: 'Posters'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)

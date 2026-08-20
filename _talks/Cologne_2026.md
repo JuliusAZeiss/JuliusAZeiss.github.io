@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Invited talk"
+category: talk
 permalink: /talks/Cologne_2026
 venue: "Institute for theoretical physics Cologne, Quantum information seminar"
 date: 2026-04-15
