@@ -1,16 +1,17 @@
 {%- comment -%}
 Leaflet map of the places where talks and posters were presented, built from
-the "lat"/"lon" fields in the front matter of the files in _talks/. Talks
-without coordinates are skipped (their titles are listed in an HTML comment in
-the page source so they are easy to spot). Which categories are plotted is set
-in map_categories below; the category fallback mirrors _pages/talks.html.
+the "lat"/"lon" fields in the front matter of the files in _talks/. Every
+talk and poster is plotted except the categories listed in map_exclude below
+(talks given by co-authors); the category fallback mirrors _pages/talks.html.
+Talks without coordinates are skipped (their titles are listed in an HTML
+comment in the page source so they are easy to spot).
 
 The map logic lives in assets/js/talk-map.js. Keep the inline <script> below to
 a single statement without comments: the site's "compress" layout strips all
 newlines from the HTML, which would turn a // comment into a script-killer.
 {%- endcomment -%}
 {%- include base_path -%}
-{%- assign map_categories = "talk,poster" | split: "," -%}
+{%- assign map_exclude = "coauthor-talk" | split: "," -%}
 {%- assign points = "" | split: "" -%}
 {%- assign missing = "" | split: "" -%}
 {%- for post in site.talks -%}
@@ -19,7 +20,7 @@ newlines from the HTML, which would turn a // comment into a script-killer.
     {%- assign post_type = post.type | downcase -%}
     {%- if post_type contains "poster" -%}{%- assign post_category = "poster" -%}{%- else -%}{%- assign post_category = "talk" -%}{%- endif -%}
   {%- endunless -%}
-  {%- unless map_categories contains post_category -%}{%- continue -%}{%- endunless -%}
+  {%- if map_exclude contains post_category -%}{%- continue -%}{%- endif -%}
   {%- if post.lat and post.lon -%}
     {%- capture point -%}{"lat":{{ post.lat }},"lon":{{ post.lon }},"title":{{ post.title | jsonify }},"url":{{ post.url | jsonify }},"type":{{ post.type | jsonify }},"venue":{{ post.venue | jsonify }},"location":{{ post.location | jsonify }},"date":{{ post.date | date: "%B %Y" | jsonify }},"iso":{{ post.date | date: "%Y-%m-%d" | jsonify }}}{%- endcapture -%}
     {%- assign points = points | push: point -%}

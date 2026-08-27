@@ -13,7 +13,7 @@ My research lies in quantum information theory, at its interface with convex opt
 
 I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
 
-As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. To share this expertise, I host a weekly [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
+As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
 
 I also thoroughly enjoy teaching and supervising students. Outside of research, I enjoy chess, cooking, and playing the guitar.
 
@@ -27,6 +27,6 @@ Upcoming Talk: [A Family of Information-Theoretic de Finetti Theorems for Constr
 
 ## Miscellaneous
 
-I am hosting a weekly [A.I. Workshop](/workshop/) at RWTH Aachen: hands-on sessions on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Everyone interested is welcome; upcoming dates, topics, and rooms are listed on the [workshop page](/workshop/).
+I am hosting a regular [A.I. Workshop](/workshop/) at RWTH Aachen: hands-on sessions on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Everyone interested is welcome; upcoming dates, topics, and rooms are listed on the [workshop page](/workshop/).
 
 {% include workshop-next-session.html %}
