@@ -21,5 +21,7 @@ main:
     url: /files/CV_JAZ.pdf/
     
   - title: "Service"
-    url: /portfolio/   
-    
+    url: /portfolio/
+
+  - title: "A.I. Workshop"
+    url: /workshop/

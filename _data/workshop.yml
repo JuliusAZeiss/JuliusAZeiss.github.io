@@ -1,0 +1,32 @@
+# Sessions of the A.I. Workshop.
+#
+# This list feeds the workshop page (_pages/workshop.md) and the "Next session"
+# line on the front page (_includes/workshop-next-session.html). To announce a
+# new session, add an entry below; the order does not matter, sessions are
+# sorted by date. A session counts as "upcoming" as long as its date has not
+# passed on the day the site is built (i.e. when you push to GitHub).
+#
+# Fields:
+#   date:        YYYY-MM-DD, unquoted (required)
+#   title:       title of the session (required)
+#   speaker:     who presents (required)
+#   room:        where the session takes place; use "TBA" if not yet known (required)
+#   time:        e.g. "14:00 - 15:30" (optional; keep the quotes, otherwise YAML reads 14:00 as a number)
+#   description: brief description of the content, Markdown allowed (required)
+#   materials:   links to slides, code, notes, ... (optional), e.g.
+#                materials:
+#                  - name: "Slides"
+#                    url: /files/workshop_2026-10-10.pdf
+
+- date: 2026-10-10
+  title: "VS Code LLM integration and GitHub version control"
+  speaker: "Julius A. Zeiss"
+  room: "TBA"
+  description: >-
+    How to turn VS Code into an AI-assisted research environment: setting up
+    LLM integrations such as GitHub Copilot and Claude Code, and using them
+    effectively for writing and debugging code, drafting LaTeX, and exploring
+    unfamiliar libraries. The second part covers version control with Git and
+    GitHub — repositories, commits, branches, and pull requests — and how to use
+    it to collaborate on research code and manuscripts and to keep results
+    reproducible. Bring your laptop if you would like to follow along.

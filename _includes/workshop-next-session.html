@@ -1,0 +1,13 @@
+{%- comment -%}
+Prints a one-line announcement of the next upcoming A.I. Workshop session
+(from _data/workshop.yml), or nothing if none is scheduled. Used on the front page.
+{%- endcomment -%}
+{%- assign today = site.time | date: "%Y-%m-%d" -%}
+{%- assign sessions = site.data.workshop | sort: "date" -%}
+{%- for s in sessions -%}
+{%- assign d = s.date | date: "%Y-%m-%d" -%}
+{%- if d >= today -%}
+<strong>Next session:</strong> <a href="/workshop/#session-{{ d }}">{{ s.title }}</a> — {{ s.date | date: "%A, %B %-d, %Y" }}{% if s.time %}, {{ s.time }}{% endif %} (Room: {{ s.room }}), presented by {{ s.speaker }}.
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
