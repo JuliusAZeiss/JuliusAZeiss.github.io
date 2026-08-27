@@ -1,0 +1,94 @@
+{%- comment -%}
+Leaflet map of the places where talks and posters were presented, built from
+the "lat"/"lon" fields in the front matter of the files in _talks/. Talks
+without coordinates are skipped (their titles are listed in an HTML comment in
+the page source so they are easy to spot). Which categories are plotted is set
+in map_categories below; the category fallback mirrors _pages/talks.html.
+{%- endcomment -%}
+{%- assign map_categories = "talk,poster" | split: "," -%}
+{%- assign points = "" | split: "" -%}
+{%- assign missing = "" | split: "" -%}
+{%- for post in site.talks -%}
+  {%- assign post_category = post.category -%}
+  {%- unless post_category -%}
+    {%- assign post_type = post.type | downcase -%}
+    {%- if post_type contains "poster" -%}{%- assign post_category = "poster" -%}{%- else -%}{%- assign post_category = "talk" -%}{%- endif -%}
+  {%- endunless -%}
+  {%- unless map_categories contains post_category -%}{%- continue -%}{%- endunless -%}
+  {%- if post.lat and post.lon -%}
+    {%- capture point -%}{"lat":{{ post.lat }},"lon":{{ post.lon }},"title":{{ post.title | jsonify }},"url":{{ post.url | jsonify }},"type":{{ post.type | jsonify }},"venue":{{ post.venue | jsonify }},"location":{{ post.location | jsonify }},"date":{{ post.date | date: "%B %Y" | jsonify }},"iso":{{ post.date | date: "%Y-%m-%d" | jsonify }}}{%- endcapture -%}
+    {%- assign points = points | push: point -%}
+  {%- else -%}
+    {%- assign missing = missing | push: post.title -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if missing.size > 0 %}
+<!-- talk map: no lat/lon in front matter for: {{ missing | join: " | " }} -->
+{%- endif %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  #talk-map { height: 380px; width: 100%; margin: 0.5em 0 0.5em; border: 1px solid var(--global-border-color); border-radius: 4px; z-index: 0; }
+  #talk-map.leaflet-container { font-family: inherit; }
+  #talk-map .leaflet-popup-content { font-size: 0.8em; line-height: 1.5; margin: 0.8em 1em; }
+  #talk-map .leaflet-popup-content p { margin: 0.4em 0; }
+  #talk-map .leaflet-popup-content a { color: var(--global-link-color); }
+  #talk-map .talk-map__place { font-weight: bold; }
+  #talk-map .talk-map__meta { color: var(--global-text-color-light); }
+  @media (max-width: 600px) { #talk-map { height: 300px; } }
+  html[data-theme="dark"] #talk-map .leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9); }
+  html[data-theme="dark"] #talk-map .leaflet-popup-content-wrapper,
+  html[data-theme="dark"] #talk-map .leaflet-popup-tip,
+  html[data-theme="dark"] #talk-map .leaflet-control-zoom a,
+  html[data-theme="dark"] #talk-map .leaflet-control-attribution { background: var(--global-bg-color); color: var(--global-text-color); }
+  html[data-theme="dark"] #talk-map .leaflet-control-attribution a { color: var(--global-link-color); }
+</style>
+<div id="talk-map"></div>
+<p class="page__meta"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> Places where I have presented my work — click a marker for details.</p>
+<script>
+(function () {
+  var talks = [{{ points | join: "," }}];
+  var container = document.getElementById("talk-map");
+  if (!talks.length || typeof L === "undefined" || !container) { if (container) { container.style.display = "none"; } return; }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c];
+    });
+  }
+
+  var map = L.map("talk-map", { scrollWheelZoom: false, worldCopyJump: true });
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Group talks given at (essentially) the same place into one marker.
+  var places = {};
+  talks.forEach(function (t) {
+    var key = t.lat.toFixed(3) + "," + t.lon.toFixed(3);
+    if (!places[key]) { places[key] = { lat: t.lat, lon: t.lon, talks: [] }; }
+    places[key].talks.push(t);
+  });
+
+  var color = (getComputedStyle(document.documentElement).getPropertyValue("--global-link-color") || "").trim() || "#1a6fb0";
+  var markers = [];
+  Object.keys(places).forEach(function (key) {
+    var place = places[key];
+    place.talks.sort(function (a, b) { return a.iso < b.iso ? 1 : (a.iso > b.iso ? -1 : 0); });
+    var html = '<p class="talk-map__place">' + esc(place.talks[0].location) + "</p>" +
+      place.talks.map(function (t) {
+        return "<p><a href=\"" + esc(t.url) + "\">" + esc(t.title) + "</a><br>" +
+          '<span class="talk-map__meta">' + esc(t.type) + ", " + esc(t.venue) + ", " + esc(t.date) + "</span></p>";
+      }).join("");
+    var marker = L.circleMarker([place.lat, place.lon], {
+      radius: 6 + 2 * (place.talks.length - 1),
+      color: color, weight: 2, fillColor: color, fillOpacity: 0.45
+    }).bindPopup(html, { maxWidth: 320 });
+    marker.addTo(map);
+    markers.push(marker);
+  });
+
+  map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [30, 30], maxZoom: 6 });
+})();
+</script>

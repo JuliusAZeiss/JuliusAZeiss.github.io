@@ -27,7 +27,7 @@ Below, I provide an overview of my outreach activities and academic service thro
 
 | Year | Journal |
 |------|---------|
-|  205    |   IEEE      |
+|  2005    |   IEEE      |
 
 ## Outreach
 

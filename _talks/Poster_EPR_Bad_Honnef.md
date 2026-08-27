@@ -8,6 +8,8 @@ permalink: /talks/Poster_EPR_Bad_Honnef
 venue: "851. WE-Heraeus-Seminar: 90 Years of Einstein-Podolsky-Rosen Paradox: Foundations and Applications"
 date: 2026-04-07
 location: "Physikzentrum Bad Honnef, Germany"
+lat: 50.6514
+lon: 7.2196
 ---
 
 [More information here](https://indico.we-heraeus-stiftung.de/event/37/)

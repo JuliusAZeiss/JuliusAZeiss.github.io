@@ -7,6 +7,8 @@ permalink: /talks/Perimeter_2023
 venue: "Perimeter Institute for Theoretical Physics"
 date: 2023-02-14
 location: "Waterloo, Ontario, Canada"
+lat: 43.4654
+lon: -80.5277
 ---
 
 [More information here](https://scivideos.org/pirsa/23020049)

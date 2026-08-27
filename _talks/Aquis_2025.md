@@ -7,6 +7,8 @@ permalink: /talks/Aquis_2025
 venue: "The University of Hong Kong"
 date: 2025-08-04
 location: "Hong Kong"
+lat: 22.2833
+lon: 114.1367
 ---
 
 [More information here](https://aqis-conf.org/2025/)

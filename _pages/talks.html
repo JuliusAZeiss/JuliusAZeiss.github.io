@@ -3,13 +3,15 @@ layout: archive
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
+redirect_from:
+  - /talkmap.html
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
+{% comment %}
+  Map of the places where talks/posters were presented; see _includes/talk-map.html.
+  Each talk needs "lat" and "lon" in its front matter to appear on the map.
+{% endcomment %}
+{% include talk-map.html %}
 
 {% comment %}
   The page is split into the sections listed under `talk_category` in _config.yml
