@@ -1,13 +1,32 @@
 {%- comment -%}
 Prints a one-line announcement of the next upcoming A.I. Workshop session
-(from _data/workshop.yml), or nothing if none is scheduled. Used on the front page.
+(from _data/workshop.yml), or nothing if none is scheduled. Used on the front
+page. The next session is the earliest dated session that has not passed yet;
+if there is none, the first session whose date is still "TBA" is announced.
 {%- endcomment -%}
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
-{%- assign sessions = site.data.workshop | sort: "date" -%}
-{%- for s in sessions -%}
+{%- assign dated = "" | split: "" -%}
+{%- assign tba = "" | split: "" -%}
+{%- for s in site.data.workshop -%}
+{%- assign d = s.date | downcase -%}
+{%- if d == "" or d == "tba" -%}
+{%- assign tba = tba | push: s -%}
+{%- else -%}
+{%- assign dated = dated | push: s -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign dated = dated | sort: "date" -%}
+{%- assign next = false -%}
+{%- for s in dated -%}
 {%- assign d = s.date | date: "%Y-%m-%d" -%}
 {%- if d >= today -%}
-<strong>Next session:</strong> <a href="/workshop/#session-{{ d }}">{{ s.title }}</a> — {{ s.date | date: "%A, %B %-d, %Y" }}{% if s.time %}, {{ s.time }}{% endif %} (Room: {{ s.room }}), presented by {{ s.speaker }}.
+{%- assign next = s -%}
 {%- break -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if next -%}
+<strong>Next session:</strong> <a href="/workshop/#session-{{ next.date | date: "%Y-%m-%d" }}">{{ next.title }}</a> — {{ next.date | date: "%A, %B %-d, %Y" }}{% if next.time %}, {{ next.time }}{% endif %} (Room: {{ next.room }}), presented by {{ next.speaker }}.
+{%- elsif tba.size > 0 -%}
+{%- assign next = tba[0] -%}
+<strong>Next session:</strong> <a href="/workshop/#session-{{ next.title | slugify }}">{{ next.title }}</a> — date to be announced (Room: {{ next.room }}), presented by {{ next.speaker }}.
+{%- endif -%}

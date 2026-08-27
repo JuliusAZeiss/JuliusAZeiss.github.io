@@ -2,12 +2,15 @@
 #
 # This list feeds the workshop page (_pages/workshop.md) and the "Next session"
 # line on the front page (_includes/workshop-next-session.html). To announce a
-# new session, add an entry below; the order does not matter, sessions are
-# sorted by date. A session counts as "upcoming" as long as its date has not
-# passed on the day the site is built (i.e. when you push to GitHub).
+# new session, add an entry below. Sessions with a date are sorted by date; a
+# session counts as "upcoming" as long as its date has not passed on the day
+# the site is built (i.e. when you push to GitHub). Sessions whose date is
+# still TBA are listed after the dated upcoming sessions, in the order of this
+# file (the first one is shown as "Next session" on the front page if no dated
+# upcoming session exists).
 #
 # Fields:
-#   date:        YYYY-MM-DD, unquoted (required)
+#   date:        YYYY-MM-DD, unquoted, or TBA if the date is not fixed yet (required)
 #   title:       title of the session (required)
 #   speaker:     who presents (required)
 #   room:        where the session takes place; use "TBA" if not yet known (required)
@@ -18,10 +21,10 @@
 #                  - name: "Slides"
 #                    url: /files/workshop_2026-10-10.pdf
 
-- date: 2026-10-10
+- date: TBA
   title: "VS Code LLM integration and GitHub version control"
   speaker: "Julius A. Zeiss"
-  room: "TBA"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
   description: >-
     How to turn VS Code into an AI-assisted research environment: setting up
     LLM integrations such as GitHub Copilot and Claude Code, and using them
@@ -30,3 +33,30 @@
     GitHub — repositories, commits, branches, and pull requests — and how to use
     it to collaborate on research code and manuscripts and to keep results
     reproducible. Bring your laptop if you would like to follow along.
+
+- date: TBA
+  title: "Prompting for theoretical physics"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    How to get the most out of large language models in theoretical physics.
+    The idea of this session is to share insights and discuss what good
+    prompting looks like for theoretical physics work — from stating a problem,
+    its assumptions, and the notation precisely, to checking derivations,
+    exploring the literature, and drafting and refining manuscripts. The
+    session is meant as an open exchange: bring examples of prompts that worked
+    well (or failed spectacularly) so that we can discuss them together.
+
+- date: TBA
+  title: "Open-source LLMs and local agentic networks"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    An overview of open-source large language models and how to run them
+    locally — on a laptop, a workstation, or institute hardware — with an eye
+    on data privacy, reproducibility, and cost. We then look at agentic setups:
+    connecting local models to tools such as code execution, literature search,
+    and computer algebra, and orchestrating several agents into small local
+    networks that can work through multi-step research tasks. We discuss where
+    such local setups already match cloud services, and where they still fall
+    short.

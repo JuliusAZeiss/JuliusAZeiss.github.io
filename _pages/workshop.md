@@ -14,20 +14,34 @@ Everyone interested is welcome — students, PhD students, postdocs, and faculty
 
 {%- comment -%}
 Sessions are maintained in _data/workshop.yml; see the comments there.
-Sessions on or after the build date are "upcoming", the others are "past".
+Sessions dated on or after the build date are "upcoming", earlier ones are
+"past". Sessions whose date is still "TBA" (or missing) are listed after the
+dated upcoming sessions, in the order of the data file. Only the dated sessions
+are sorted: sorting a mix of dates and strings would fail the build.
 {%- endcomment -%}
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
-{%- assign sessions = site.data.workshop | sort: "date" -%}
+{%- assign dated = "" | split: "" -%}
+{%- assign tba = "" | split: "" -%}
+{%- for s in site.data.workshop -%}
+{%- assign d = s.date | downcase -%}
+{%- if d == "" or d == "tba" -%}
+{%- assign tba = tba | push: s -%}
+{%- else -%}
+{%- assign dated = dated | push: s -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign dated = dated | sort: "date" -%}
 {%- assign upcoming = "" | split: "" -%}
 {%- assign past = "" | split: "" -%}
-{%- for s in sessions -%}
+{%- for s in dated -%}
 {%- assign d = s.date | date: "%Y-%m-%d" -%}
 {%- if d >= today -%}
 {%- assign upcoming = upcoming | push: s -%}
 {%- else -%}
 {%- assign past = past | push: s -%}
 {%- endif -%}
-{%- endfor %}
+{%- endfor -%}
+{%- assign upcoming = upcoming | concat: tba %}
 
 <h2 id="upcoming">Upcoming sessions</h2><hr />
 

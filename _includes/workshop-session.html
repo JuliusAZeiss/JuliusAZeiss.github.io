@@ -1,12 +1,21 @@
 {%- comment -%}
 Renders one session of the A.I. Workshop (an entry of _data/workshop.yml).
 Usage: {% include workshop-session.html session=s %}
+A session whose date is "TBA" (or missing) gets its id from the title and
+shows "Date to be announced" instead of the date.
 {%- endcomment -%}
+{%- assign session_date = include.session.date | downcase -%}
+{%- if session_date == "" or session_date == "tba" -%}
+{%- assign session_tba = true -%}
+{%- assign session_id = include.session.title | slugify | prepend: "session-" -%}
+{%- else -%}
+{%- assign session_tba = false -%}
 {%- assign session_id = include.session.date | date: "session-%Y-%m-%d" -%}
+{%- endif -%}
 <div class="list__item">
   <article class="archive__item" id="{{ session_id }}" itemscope itemtype="http://schema.org/Event">
     <h2 class="archive__item-title" itemprop="name">{{ include.session.title }}</h2>
-    <p class="page__meta"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i> <time itemprop="startDate" datetime="{{ include.session.date | date: "%Y-%m-%d" }}">{{ include.session.date | date: "%A, %B %-d, %Y" }}</time>{% if include.session.time %}, {{ include.session.time }}{% endif %}</p>
+    <p class="page__meta"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i> {% if session_tba %}Date to be announced{% else %}<time itemprop="startDate" datetime="{{ include.session.date | date: "%Y-%m-%d" }}">{{ include.session.date | date: "%A, %B %-d, %Y" }}</time>{% endif %}{% if include.session.time %}, {{ include.session.time }}{% endif %}</p>
     <p class="page__meta"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> <span itemprop="location">{{ include.session.room }}</span></p>
     <p class="page__meta"><i class="fas fa-fw fa-user" aria-hidden="true"></i> <span itemprop="performer">{{ include.session.speaker }}</span></p>
     <div class="archive__item-excerpt" itemprop="description">{{ include.session.description | markdownify }}</div>
