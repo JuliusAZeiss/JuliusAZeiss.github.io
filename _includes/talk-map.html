@@ -4,7 +4,12 @@ the "lat"/"lon" fields in the front matter of the files in _talks/. Talks
 without coordinates are skipped (their titles are listed in an HTML comment in
 the page source so they are easy to spot). Which categories are plotted is set
 in map_categories below; the category fallback mirrors _pages/talks.html.
+
+The map logic lives in assets/js/talk-map.js. Keep the inline <script> below to
+a single statement without comments: the site's "compress" layout strips all
+newlines from the HTML, which would turn a // comment into a script-killer.
 {%- endcomment -%}
+{%- include base_path -%}
 {%- assign map_categories = "talk,poster" | split: "," -%}
 {%- assign points = "" | split: "" -%}
 {%- assign missing = "" | split: "" -%}
@@ -45,50 +50,5 @@ in map_categories below; the category fallback mirrors _pages/talks.html.
 </style>
 <div id="talk-map"></div>
 <p class="page__meta"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> Places where I have presented my work — click a marker for details.</p>
-<script>
-(function () {
-  var talks = [{{ points | join: "," }}];
-  var container = document.getElementById("talk-map");
-  if (!talks.length || typeof L === "undefined" || !container) { if (container) { container.style.display = "none"; } return; }
-
-  function esc(s) {
-    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c];
-    });
-  }
-
-  var map = L.map("talk-map", { scrollWheelZoom: false, worldCopyJump: true });
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-
-  // Group talks given at (essentially) the same place into one marker.
-  var places = {};
-  talks.forEach(function (t) {
-    var key = t.lat.toFixed(3) + "," + t.lon.toFixed(3);
-    if (!places[key]) { places[key] = { lat: t.lat, lon: t.lon, talks: [] }; }
-    places[key].talks.push(t);
-  });
-
-  var color = (getComputedStyle(document.documentElement).getPropertyValue("--global-link-color") || "").trim() || "#1a6fb0";
-  var markers = [];
-  Object.keys(places).forEach(function (key) {
-    var place = places[key];
-    place.talks.sort(function (a, b) { return a.iso < b.iso ? 1 : (a.iso > b.iso ? -1 : 0); });
-    var html = '<p class="talk-map__place">' + esc(place.talks[0].location) + "</p>" +
-      place.talks.map(function (t) {
-        return "<p><a href=\"" + esc(t.url) + "\">" + esc(t.title) + "</a><br>" +
-          '<span class="talk-map__meta">' + esc(t.type) + ", " + esc(t.venue) + ", " + esc(t.date) + "</span></p>";
-      }).join("");
-    var marker = L.circleMarker([place.lat, place.lon], {
-      radius: 6 + 2 * (place.talks.length - 1),
-      color: color, weight: 2, fillColor: color, fillOpacity: 0.45
-    }).bindPopup(html, { maxWidth: 320 });
-    marker.addTo(map);
-    markers.push(marker);
-  });
-
-  map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [30, 30], maxZoom: 6 });
-})();
-</script>
+<script>window.talkMapData = [{{ points | join: "," }}];</script>
+<script src="{{ base_path }}/assets/js/talk-map.js"></script>
