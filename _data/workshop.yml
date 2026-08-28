@@ -60,3 +60,19 @@
     networks that can work through multi-step research tasks. We discuss where
     such local setups already match cloud services, and where they still fall
     short.
+
+- date: TBA
+  title: "Creating your personal knowledge base"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    How to build a personal knowledge base that grows with your research and
+    that AI tools can actually use: collecting papers, notes, derivations, and
+    code in one searchable place, structuring it so that it stays useful over
+    the years, and connecting it to a language model so that you can ask
+    questions across your own material — from "where did I derive this bound?"
+    to "which of my notes are relevant for this new project?". We compare
+    lightweight setups based on Markdown notes and plain folders with tools
+    such as Obsidian and retrieval-augmented (RAG) pipelines over local
+    documents, and discuss how to keep the knowledge base tidy with little
+    effort. Bring your laptop if you would like to set one up during the session.
