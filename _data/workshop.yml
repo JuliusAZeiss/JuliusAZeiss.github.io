@@ -21,7 +21,8 @@
 #                  - name: "Slides"
 #                    url: /files/workshop_2026-10-10.pdf
 
-- date: TBA
+- date: 2026-09-25
+  time: "10:00 - 11:00"
   title: "VS Code LLM integration and GitHub version control"
   speaker: "Julius A. Zeiss"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
@@ -76,3 +77,18 @@
     networks that can work through multi-step research tasks. We discuss where
     such local setups already match cloud services, and where they still fall
     short.
+
+- date: TBA
+  title: "Formally verified proofs with Lean"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    An introduction to the Lean theorem prover and its mathematical library
+    Mathlib, and to how language models are starting to be used alongside it:
+    what it means to formalize a definition, a statement, and a proof so that a
+    computer checks every step; how to read and write simple Lean proofs; and
+    how AI assistants can help with formalizing statements, suggesting tactics,
+    and filling in routine steps. We discuss what formal verification can
+    realistically offer for research in theoretical physics today, and where
+    the effort is still prohibitive. Bring your laptop if you would like to
+    try Lean yourself during the session.

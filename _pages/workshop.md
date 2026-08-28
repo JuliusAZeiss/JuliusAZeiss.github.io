@@ -10,7 +10,7 @@ redirect_from:
 
 Artificial intelligence is changing how research is done — from coding assistants and literature search to formally verified proofs — but the know-how of using these tools well is spread thinly across groups and rarely written down. The A.I. Workshop is a regular, informal meeting at RWTH Aachen where we share this expertise: we present tools and workflows, try them out hands-on, and discuss how to use AI in a way that makes our scientific work more rigorous, transparent, and reproducible.
 
-Everyone interested is welcome — students, PhD students, postdocs, and faculty alike — and no prior experience is required. Sessions take place regularly but not at fixed intervals — the dates depend on the availability of speakers, so please check the upcoming sessions below. If you would like to present a tool, a workflow, or a topic in one of the sessions, please [get in touch](mailto:{{ site.author.email }}).
+Everyone interested is welcome — students, PhD students, postdocs, and faculty alike — and no prior experience is required. We generally aim to hold the sessions on Fridays from 3 pm to 4 pm, but the dates depend on the availability of speakers and individual sessions may deviate from this, so please check the upcoming sessions below. If you would like to present a tool, a workflow, or a topic in one of the sessions, please [get in touch](mailto:{{ site.author.email }}).
 
 {%- comment -%}
 Sessions are maintained in _data/workshop.yml; see the comments there.
