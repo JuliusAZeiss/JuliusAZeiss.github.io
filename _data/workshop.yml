@@ -48,20 +48,6 @@
     well (or failed spectacularly) so that we can discuss them together.
 
 - date: TBA
-  title: "Open-source LLMs and local agentic networks"
-  speaker: "Julius A. Zeiss"
-  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
-  description: >-
-    An overview of open-source large language models and how to run them
-    locally — on a laptop, a workstation, or institute hardware — with an eye
-    on data privacy, reproducibility, and cost. We then look at agentic setups:
-    connecting local models to tools such as code execution, literature search,
-    and computer algebra, and orchestrating several agents into small local
-    networks that can work through multi-step research tasks. We discuss where
-    such local setups already match cloud services, and where they still fall
-    short.
-
-- date: TBA
   title: "Creating your personal knowledge base"
   speaker: "Julius A. Zeiss"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
@@ -76,3 +62,17 @@
     such as Obsidian and retrieval-augmented (RAG) pipelines over local
     documents, and discuss how to keep the knowledge base tidy with little
     effort. Bring your laptop if you would like to set one up during the session.
+
+- date: TBA
+  title: "Open-source LLMs and local agentic networks"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    An overview of open-source large language models and how to run them
+    locally — on a laptop, a workstation, or institute hardware — with an eye
+    on data privacy, reproducibility, and cost. We then look at agentic setups:
+    connecting local models to tools such as code execution, literature search,
+    and computer algebra, and orchestrating several agents into small local
+    networks that can work through multi-step research tasks. We discuss where
+    such local setups already match cloud services, and where they still fall
+    short.
