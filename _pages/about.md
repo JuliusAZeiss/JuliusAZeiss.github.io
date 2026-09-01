@@ -23,7 +23,13 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 New preprint: [Fixed points in de Finetti hierarchies](https://arxiv.org/abs/2607.23689/)
 
-Upcoming Talk: [A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization](https://tqc-conference.org/2026/sessions/contributed5c/) at TQC 2026 in Sherbrooke, Canada
+Upcoming Talk: [A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization](https://tqc-conference.org/2026/sessions/contributed5c/) at TQC 2026 in Sherbrooke, Canada.
+Drawing on a series of four papers, the talk shows how information-theoretic de Finetti techniques can be adapted to constrained optimization problems in quantum information theory, closing the gap between constrained and unconstrained instances in terms of approximation algorithms. This conference contribution is joint work with Mario Berta, Omar Fawzi, Gereon Koßmann, and Martin Plavála. The four underlying papers are:
+
+- [Approximating fixed size quantum correlations in polynomial time](https://arxiv.org/abs/2507.12302)
+- [On approximate quantum error correction for symmetric noise](https://arxiv.org/abs/2507.12326)
+- [Finite de Finetti for convex bodies and Polynomial Optimization](https://arxiv.org/abs/2601.15184) (also joint work with René Schwonnek)
+- [Fixed points in de Finetti hierarchies](https://arxiv.org/abs/2607.23689)
 
 ## Miscellaneous
 
