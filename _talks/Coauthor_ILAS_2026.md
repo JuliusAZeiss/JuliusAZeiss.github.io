@@ -2,6 +2,7 @@
 title: "Information-theoretic finite de Finetti theorems for quantum and beyond"
 collection: talks
 type: "Contributed talk"
+excerpt: "Information-theoretic finite de Finetti theorems for quantum theory and general probabilistic theories."
 category: coauthor-talk
 speaker: "Gereon Koßmann"
 permalink: /talks/Coauthor_ILAS_2026

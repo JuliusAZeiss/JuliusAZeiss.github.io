@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Contributed talk"
+excerpt: "Polynomial-time additive approximations of fixed-size quantum correlations via Bose-symmetric de Finetti theorems."
 category: talk
 permalink: /talks/Aquis_2025
 venue: "The University of Hong Kong"

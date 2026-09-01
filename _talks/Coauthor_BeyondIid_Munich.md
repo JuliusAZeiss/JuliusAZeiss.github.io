@@ -2,6 +2,7 @@
 title: "On approximate quantum error correction for symmetric noise"
 collection: talks
 type: "Contributed talk"
+excerpt: "Semidefinite programming bounds and certified encoder-decoder pairs for approximate quantum error correction under symmetric noise."
 category: coauthor-talk
 speaker: "Gereon Koßmann"
 permalink: /talks/Coauthor_BeyondIid_Munich_2025

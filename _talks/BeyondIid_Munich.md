@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Contributed talk"
+excerpt: "Polynomial-time additive approximations of fixed-size quantum correlations via Bose-symmetric de Finetti theorems."
 category: talk
 permalink: /talks/BeyondIid_Munich_2025
 venue: "13th Beyond IID in Information Theory"

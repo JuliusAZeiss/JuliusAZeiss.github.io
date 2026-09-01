@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Poster"
+excerpt: "Polynomial-time additive approximations of fixed-size quantum correlations via Bose-symmetric de Finetti theorems."
 category: poster
 permalink: /talks/Poster_QIP_Riga
 venue: "29th Annual Quantum Information Processing Conference 2026"

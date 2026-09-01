@@ -2,6 +2,7 @@
 title: "Approximating fixed size quantum correlations in polynomial time"
 collection: talks
 type: "Invited talk"
+excerpt: "Polynomial-time additive approximations of fixed-size quantum correlations via Bose-symmetric de Finetti theorems."
 category: talk
 permalink: /talks/Cologne_2026
 venue: "Institute for theoretical physics Cologne, Quantum information seminar"
