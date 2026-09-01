@@ -35,4 +35,4 @@ Below, I provide an overview of my outreach activities and academic service thro
 [School internships](https://ml4q.de/schulpraktika/), July 2024 · [Quanteen Day 2024](https://ml4q.de/quanteen-day-2024/) · [Quanteen Day 2026](https://ml4q.de/veranstaltungen-2/quanteen-day-2026/)
 
 **Author** — [Deutsche Physikalische Gesellschaft e. V. (DPG)](https://www.dpg-physik.de/)  
-Review article on the [Quantum Computing Bad Honnef Physics School](https://www.dpg-physik.de/veranstaltungen/2022/quantum_computing), `YYYY`
+A. Matthies and J. Zeiss, *Quantum Computing*, review article on the [Quantum Computing Bad Honnef Physics School](https://www.dpg-physik.de/veranstaltungen/2022/quantum_computing), [Physik Journal 21 (2022) No. 11, p. 57](https://pro-physik.de/zeitschriften/physik-journal/2022-11/)
