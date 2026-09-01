@@ -1,0 +1,110 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\definecolor{accent}{RGB}{128,0,64}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{1.1em}{0.7em}
+\setlength{\parindent}{0pt}
+
+\newcommand{\cvitem}[2]{#1 & #2 \\[0.45em]}
+\pagestyle{empty}
+
+\begin{document}
+
+{\LARGE\bfseries Julius Alexander Zeiss, M.Sc.\ Physics}\\[0.4em]
+PhD Student, Institute for Quantum Information, RWTH Aachen University, Germany\\
+\href{mailto:julius.zeiss@icloud.com}{julius.zeiss@icloud.com} \,\textbullet\,
+\href{https://juliusazeiss.github.io}{juliusazeiss.github.io}
+
+\section{Profile}
+\begin{itemize}[leftmargin=1.2em,itemsep=0.15em]
+  \item Research in quantum information theory at its interface with convex optimization and mathematical physics: quantum de Finetti theorems, symmetry-reduced semidefinite programming hierarchies, and efficient algorithms with certifiable guarantees for quantum correlations, approximate quantum error correction, and polynomial optimization
+  \item Speaker at leading international conferences (TQC, Beyond IID, AQIS) and invited speaker at institutions including Stanford University and the Perimeter Institute for Theoretical Physics
+  \item Host of a regular A.I.\ Workshop at RWTH Aachen on AI tools for rigorous, reproducible science
+\end{itemize}
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 03/2023}{\textbf{PhD in Physics (Quantum Information Theory), RWTH Aachen University, Germany}\newline Institute for Quantum Information, final-year PhD student\newline Advisor: Prof.\ Dr.\ Mario Berta}
+\cvitem{10/2019 -- 08/2022}{\textbf{M.Sc.\ Physics, University of Cologne \& University of Bonn, Germany}\newline Focus: Theoretical Particle Physics, General Relativity, Mathematical Physics\newline Thesis: \emph{SDP Relaxations for Quantum Inflation}\newline Advisor: Prof.\ Dr.\ David Gross, Thesis Grade: 1.0 (very good)\newline Overall Grade: 1.4 (very good)}
+\cvitem{10/2018 -- 08/2019}{\textbf{M.Sc.\ Physics, University of M\"unster, Germany}\newline Focus: Theoretical Nuclear \& Particle Physics, Theoretical Non-linear Physics, Quantum Information Theory, Biophysics}
+\cvitem{10/2015 -- 09/2018}{\textbf{B.Sc.\ Physics, University of M\"unster, Germany}\newline Thesis: \emph{Numerical Treatment of the Manning Potential for the Description of Ammonia}\newline Advisor: Prof.\ Dr.\ Gernot M\"unster, Thesis Grade: 1.0 (very good)\newline Overall Grade: 1.8 (good)}
+\cvitem{04/2013 -- 09/2015}{\textbf{B.Sc.\ Business Administration, University of M\"unster, Germany}\newline (discontinued, transferred to Physics)}
+\cvitem{09/2010 -- 05/2012}{\textbf{International Baccalaureate, King William's College, Isle of Man}\newline Overall Grade: 41/45 Points (very good, 1.1 German Abitur)}
+\end{tabularx}
+
+\section{Publications and Preprints}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{2026}{G.~Ko\ss mann, J.~A.~Zeiss, \emph{Fixed points in de Finetti hierarchies}, \href{https://arxiv.org/abs/2607.23689}{arXiv:2607.23689}}
+\cvitem{2026}{J.~A.~Zeiss, G.~Ko\ss mann, R.~Schwonnek, M.~Pl\'avala, \emph{Finite de Finetti for convex bodies and polynomial optimization}, \href{https://arxiv.org/abs/2601.15184}{arXiv:2601.15184}}
+\cvitem{2025}{J.~A.~Zeiss, G.~Ko\ss mann, O.~Fawzi, M.~Berta, \emph{Approximating fixed size quantum correlations in polynomial time}, \href{https://arxiv.org/abs/2507.12302}{arXiv:2507.12302}}
+\cvitem{2025}{G.~Ko\ss mann, J.~A.~Zeiss, O.~Fawzi, M.~Berta, \emph{On approximate quantum error correction for symmetric noise}, \href{https://arxiv.org/abs/2507.12326}{arXiv:2507.12326}}
+\end{tabularx}
+
+\section{Invited Talks}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{06/2026}{\textbf{Stanford University, CS Theory Group, Palo Alto, USA}\newline \emph{Information-theoretic de Finetti theorems}}
+\cvitem{04/2026}{\textbf{University of Cologne, Quantum Information Seminar, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{07/2023}{\textbf{Siegen University, Germany}\newline \emph{Inner approximation schemes for approximate quantum error correction}}
+\cvitem{02/2023}{\textbf{Perimeter Institute for Theoretical Physics, Waterloo, Canada}\newline \emph{Infinite Dimensional Optimisation Problems in Quantum Information --- An operator algebra approach to the NPA Hierarchy}}
+\cvitem{05/2022}{\textbf{Alpen-Adria-Universit\"at Klagenfurt, Austria}\newline \emph{SDP methods for the quantum causal compatibility problem}}
+\end{tabularx}
+
+\section{Contributed Talks}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{09/2026}{\textbf{TQC 2026, Sherbrooke, Canada}\newline \emph{A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization}}
+\cvitem{05/2026}{\textbf{ILAS 2026, Virginia Tech, Blacksburg, USA}\newline \emph{Convergent Inner-Outer Approximation Schemes From De Finetti Theorems For Games And Quantum Error Correction}}
+\cvitem{03/2026}{\textbf{Quantum at the Dunes, IIP-UFRN, Natal, Brazil}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{08/2025}{\textbf{AQIS 2025, The University of Hong Kong, Hong Kong}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{07/2025}{\textbf{13th Beyond IID in Information Theory, TU Munich, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\end{tabularx}
+
+\section{Posters}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{04/2026}{\textbf{851.\ WE-Heraeus-Seminar: 90 Years of Einstein-Podolsky-Rosen Paradox, Bad Honnef, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{01/2026}{\textbf{QIP 2026, Riga, Latvia}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{08/2025}{\textbf{QMATH Masterclass on Representation Theory in Quantum Information Science, University of Copenhagen, Denmark}\newline \emph{Schur--Weyl Duality for Efficient Approximation of Constrained Separability}}
+\cvitem{07/2024}{\textbf{Beyond IID in Information Theory, University of Illinois Urbana-Champaign, USA}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\end{tabularx}
+
+\section{Teaching}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 03/2023}{\textbf{RWTH Aachen University, Germany}\newline Teaching and supervision of students at the Institute for Quantum Information}
+\cvitem{04/2021 -- 04/2022}{\textbf{University of Cologne, Germany}\newline Tutorials on Linear Algebra \& Analysis, Proofs in Mathematics, Theoretical Physics}
+\cvitem{04/2019 -- 09/2019}{\textbf{University of M\"unster, Germany}\newline Tutorials on Applied Physics}
+\end{tabularx}
+
+\section{Academic Service}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{Reviewing}{TQC (2023, 2024, 2025) \textbullet\ ISIT (2023, 2024, 2025) \textbullet\ QIP (2024) \textbullet\ Beyond IID (2023, 2024)}
+\end{tabularx}
+
+\section{Outreach}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 2025}{\textbf{A.I.\ Workshop, RWTH Aachen University, Germany}\newline Founder and host of a regular workshop on AI tools for research --- from coding assistants and version control to formally verified proofs --- and on using them to conduct better science}
+\cvitem{2024 -- 2026}{\textbf{ML4Q --- Matter and Light for Quantum Computing, Germany}\newline Instructor: school internships (July 2024), Quanteen Day 2024, Quanteen Day 2026}
+\cvitem{11/2022}{\textbf{DPG Physik Journal}\newline A.~Matthies and J.~Zeiss, \emph{Quantum Computing}, review article on the Quantum Computing Bad Honnef Physics School, Physik Journal 21 (2022) No.~11, p.~57}
+\end{tabularx}
+
+\section{Skills}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{Languages}{German (native), English (bilingual)}
+\cvitem{Coding}{Python, Mathematica, Fortran, PHP, JavaScript, HTML, SQL, VBA}
+\end{tabularx}
+
+\section{Outside of Academia --- Employment}
+\begin{tabularx}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{2014, 2015}{\textbf{Fielmann AG, Hamburg, Germany} --- DCF Modelling with Monte-Carlo Simulations, VBA \& SQL Solutions}
+\cvitem{01/2013 -- 02/2013}{\textbf{HMT, Hamburg, Germany} --- Mathematical Modelling using Monte-Carlo Simulations}
+\cvitem{08/2011}{\textbf{AKO Capital, London, England} --- Internship in Financial Research using Mathematical Modelling}
+\end{tabularx}
+
+\end{document}
