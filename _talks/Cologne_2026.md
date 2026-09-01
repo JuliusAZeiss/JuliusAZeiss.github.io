@@ -12,3 +12,5 @@ lon: 6.9281
 ---
 
 [More information here](https://events.thp.uni-koeln.de/events/2373)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)

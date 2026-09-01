@@ -12,3 +12,5 @@ lon: -88.2232
 ---
 
 [More information here](https://beyondiid2024.iquist.illinois.edu)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)

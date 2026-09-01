@@ -13,3 +13,5 @@ lon: 7.2196
 ---
 
 [More information here](https://indico.we-heraeus-stiftung.de/event/37/)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)

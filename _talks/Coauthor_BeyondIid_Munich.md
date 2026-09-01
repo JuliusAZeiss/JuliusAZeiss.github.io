@@ -13,3 +13,5 @@ lon: 11.6721
 ---
 
 [More information here](https://sites.google.com/view/beyondiid13/programme)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12326)

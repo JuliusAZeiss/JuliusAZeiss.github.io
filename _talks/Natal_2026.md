@@ -12,3 +12,5 @@ lon: -35.1978
 ---
 
 [More information here](https://www.iip.ufrn.br/en/events/quantum-at-the-dunes)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)

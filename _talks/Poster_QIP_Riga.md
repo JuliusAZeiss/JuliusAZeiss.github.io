@@ -12,3 +12,5 @@ lon: 24.1052
 ---
 
 [More information here](https://qip2026.lu.lv/programme/poster-sessions/) 
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)

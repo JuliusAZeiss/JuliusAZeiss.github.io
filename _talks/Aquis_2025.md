@@ -12,3 +12,5 @@ lon: 114.1367
 ---
 
 [More information here](https://aqis-conf.org/2025/)
+
+[Paper (arXiv)](https://arxiv.org/abs/2507.12302)
