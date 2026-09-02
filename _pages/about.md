@@ -9,7 +9,7 @@ redirect_from:
 
 I am a final year PhD student in quantum information theory supervised by Prof. Dr. Mario Berta at RWTH Aachen.
 
-I build classical algorithms that make hard quantum problems tractable. Many core questions in quantum information — the strength of quantum correlations, the limits of error correction — are a priori intractable or even undecidable. Using tools from group theory, quantum Shannon theory, and convex optimization, I construct algorithms with provable guarantees that pin these problems down anyway. Concretely, I develop quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies for problems such as approximating quantum correlations in nonlocal games, approximate quantum error correction, and polynomial optimization. 
+I develop classical algorithms that make difficult quantum problems tractable. Many fundamental questions in quantum information, such as the strength of quantum correlations and the limits of quantum error correction, are computationally intractable and, in some settings, even undecidable. By combining group theory, quantum Shannon theory, and convex optimization, I build methods with provable guarantees. In particular, I use quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies to obtain rigorous, computable bounds for problems that would otherwise remain out of reach. 
 
 I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
 
