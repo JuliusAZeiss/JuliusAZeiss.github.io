@@ -16,7 +16,7 @@ Below is a short-form overview; the full CV with all talks, posters, teaching, a
 - **PhD in Physics (Quantum Information Theory)**, RWTH Aachen University — since 03/2023
   Institute for Quantum Information, advisor: Prof. Dr. Mario Berta
 - **M.Sc. Physics**, University of Cologne & University of Bonn — 2019 – 2022
-  Thesis: *SDP Relaxations for Quantum Inflation* (advisor: Prof. Dr. David Gross)
+  Thesis: [*SDP Relaxations for Quantum Inflation*](/files/master_thesis_JAZ.pdf) (advisor: Prof. Dr. David Gross)
 - **B.Sc. Physics**, University of Münster — 2015 – 2018
 
 ## Publications and Preprints
