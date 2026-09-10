@@ -58,7 +58,7 @@ Please find below an overview of my teaching experience over the years.
 
 <div class="list__item">
   <article class="archive__item">
-    <h3 class="archive__item-title"><i class="fas fa-fw fa-user-graduate" aria-hidden="true"></i> Cormac Stropes</h3>
+    <h3 class="archive__item-title"><i class="fas fa-fw fa-user-graduate" aria-hidden="true"></i> Cormac Stopes</h3>
     <p class="page__meta"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i> November 2025 – November 2026</p>
     <p>Master's thesis: <em>Decision methods for pseudo-telepathy games</em></p>
   </article>

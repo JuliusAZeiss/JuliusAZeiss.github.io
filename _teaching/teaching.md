@@ -30,7 +30,7 @@ Please find below an overview of my teaching experience over the years.
 **Max Schrauwen** — *Semidefinite programming for non-local games*  
 Start: `2025-10` · End: `2026-10`
 
-**Cormac Stropes** — *Decision methods for pseudo-telepathy games*  
+**Cormac Stopes** — *Decision methods for pseudo-telepathy games*  
 Start: `2025-11` · End: `2026-11`
 
 ## Bachelor's theses
