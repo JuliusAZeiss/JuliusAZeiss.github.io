@@ -92,3 +92,8 @@
     realistically offer for research in theoretical physics today, and where
     the effort is still prohibitive. Bring your laptop if you would like to
     try Lean yourself during the session.
+  materials:
+    - name: "Paper: optimal entanglement-assisted source coding"
+      url: https://arxiv.org/abs/2609.15757
+    - name: "Lean verification on GitHub"
+      url: https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise
