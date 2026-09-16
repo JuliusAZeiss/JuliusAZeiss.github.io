@@ -11,15 +11,19 @@ I am a final year PhD student in quantum information theory supervised by Prof. 
 
 I develop classical algorithms that make difficult quantum problems tractable. Many fundamental questions in quantum information, such as the strength of quantum correlations and the limits of quantum error correction, are computationally intractable and, in some settings, even undecidable. By combining group theory, quantum Shannon theory, and convex optimization, I build methods with provable guarantees. In particular, I use quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies to obtain rigorous, computable bounds for problems that would otherwise remain out of reach. 
 
+I also study the fundamental limits of entanglement-assisted communication. In [recent work](https://arxiv.org/abs/2609.15757), I determine exactly how much classical communication a particular zero-error source-coding task requires when the sender and receiver share entanglement.
+
 I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
 
-As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
+As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. In my [recent paper on optimal entanglement-assisted source coding](https://arxiv.org/abs/2609.15757), every lemma, theorem, and corollary is formalized and verified in Lean. The [verification code is available on GitHub](https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise). To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
 
 I also thoroughly enjoy teaching and supervising students. Outside of research, I enjoy chess, cooking, and playing the guitar.
 
 # Recent News
 
 ## Research
+
+New preprint: [Optimal entanglement-assisted source coding under a balanced-difference promise](https://arxiv.org/abs/2609.15757)
 
 New preprint: [Fixed points in de Finetti hierarchies](https://arxiv.org/abs/2607.23689/)
 

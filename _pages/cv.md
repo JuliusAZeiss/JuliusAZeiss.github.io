@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /cv-json/
+  - /resume-json
 ---
 
 <a href="/files/CV_JAZ.pdf" class="btn btn--primary"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download full CV (PDF)</a>
@@ -21,6 +23,7 @@ Below is a short-form overview; the full CV with all talks, posters, teaching, a
 
 ## Publications and Preprints
 
+- J. A. Zeiss, *Optimal entanglement-assisted source coding under a balanced-difference promise*, [arXiv:2609.15757](https://arxiv.org/abs/2609.15757)
 - M. Berta, P. Costa Rico, G. Koßmann, L. Lami, J. A. Zeiss, *Sharp continuity of quantum conditional entropy*, [arXiv:2607.24687](https://arxiv.org/abs/2607.24687)
 - G. Koßmann, J. A. Zeiss, *Fixed points in de Finetti hierarchies*, [arXiv:2607.23689](https://arxiv.org/abs/2607.23689) — under review at Communications in Mathematical Physics
 - J. A. Zeiss, G. Koßmann, R. Schwonnek, M. Plávala, *Finite de Finetti for convex bodies and polynomial optimization*, [arXiv:2601.15184](https://arxiv.org/abs/2601.15184) — under review at Mathematical Programming A
