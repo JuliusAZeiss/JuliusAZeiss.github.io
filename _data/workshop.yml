@@ -21,10 +21,10 @@
 #                  - name: "Slides"
 #                    url: /files/workshop_2026-10-10.pdf
 
-- date: 2026-09-25
+- date: 2026-10-02
   time: "10:00 - 11:00"
   title: "VS Code LLM integration and GitHub version control"
-  speaker: "Julius A. Zeiss"
+  speaker: "Julius A. Zeiss and Sven Danz"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
   description: >-
     How to turn VS Code into an AI-assisted research environment: setting up
@@ -33,7 +33,9 @@
     unfamiliar libraries. The second part covers version control with Git and
     GitHub — repositories, commits, branches, and pull requests — and how to use
     it to collaborate on research code and manuscripts and to keep results
-    reproducible. Bring your laptop if you would like to follow along.
+    reproducible. Sven Danz will also explain his workflow using Zed and ChatGPT
+    for the coding cycle and documentation. Bring your laptop if you would like
+    to follow along.
 
 - date: TBA
   title: "Prompting for theoretical physics"

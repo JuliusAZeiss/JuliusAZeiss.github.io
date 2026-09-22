@@ -21,6 +21,9 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 # Recent News
 
+**A.I. Workshop rescheduled:** The first session, [VS Code LLM integration and GitHub version control](/workshop/#session-2026-10-02), has moved from September 25 to **Friday, October 2, 2026, from 10 am to 11 am**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
+{: .notice--warning}
+
 ## Research
 
 New preprint: [A counterexample to the quantum Hedetniemi conjecture](https://arxiv.org/abs/2609.20690)
