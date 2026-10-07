@@ -37,6 +37,21 @@
     for the coding cycle and documentation. Bring your laptop if you would like
     to follow along.
 
+- date: 2026-10-09
+  time: "14:00 - 15:00"
+  title: "Setting up VS Code with LaTeX, LLM, and GitHub integration"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    A hands-on walk-through of setting up VS Code as a complete research
+    environment, and a more technical follow-up to the first session on
+    [VS Code LLM integration and GitHub version control](/workshop/#session-2026-10-02).
+    Step by step, we install and configure a LaTeX toolchain for writing,
+    compiling, and previewing documents, connect LLM assistants such as GitHub
+    Copilot and Claude Code, and link the editor to Git and GitHub — so that
+    writing, coding, and version control all happen in one place. Bring your
+    laptop if you would like to set everything up during the session.
+
 - date: TBA
   title: "Prompting for theoretical physics"
   speaker: "Julius A. Zeiss"

@@ -12,7 +12,7 @@ Below, I provide an overview of my outreach activities and academic service thro
 <div class="list__item">
   <article class="archive__item">
     <h3 class="archive__item-title"><i class="fas fa-fw fa-robot" aria-hidden="true"></i> A.I. Workshop, RWTH Aachen University</h3>
-    <p class="page__meta"><i class="fas fa-fw fa-user" aria-hidden="true"></i> Founder and host, since 2025</p>
+    <p class="page__meta"><i class="fas fa-fw fa-user" aria-hidden="true"></i> Founder and host, since 2026</p>
     <p>A regular workshop on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Upcoming dates and topics are listed on the <a href="/workshop/">workshop page</a>.</p>
   </article>
 </div>
