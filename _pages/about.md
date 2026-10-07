@@ -21,7 +21,7 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 # Recent News
 
-**Next A.I. Workshop:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](/workshop/#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 2 pm to 3 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
+**Next A.I. Workshop:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](/workshop/#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 3 pm to 4 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
 {: .notice--warning}
 
 ## Research

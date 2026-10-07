@@ -8,7 +8,7 @@ redirect_from:
   - /workshop.html
 ---
 
-**Next session:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 2 pm to 3 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
+**Next session:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 3 pm to 4 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
 {: .notice--warning}
 
 Artificial intelligence is changing how research is done — from coding assistants and literature search to formally verified proofs — but the know-how of using these tools well is spread thinly across groups and rarely written down. The A.I. Workshop is a regular, informal meeting at RWTH Aachen where we share this expertise: we present tools and workflows, try them out hands-on, and discuss how to use AI in a way that makes our scientific work more rigorous, transparent, and reproducible.
