@@ -25,8 +25,8 @@ if there is none, the first session whose date is still "TBA" is announced.
 {%- endif -%}
 {%- endfor -%}
 {%- if next -%}
-<strong>Next session:</strong> <a href="/workshop/#session-{{ next.date | date: "%Y-%m-%d" }}">{{ next.title }}</a> — {{ next.date | date: "%A, %B %-d, %Y" }}{% if next.time %}, {{ next.time }}{% endif %} (Room: {{ next.room }}{% if site.data.workshop_info.zoom %} · <a href="{{ site.data.workshop_info.zoom }}">Zoom link</a>{% endif %}), presented by {{ next.speaker }}{% if next.host %}, hosted by {{ next.host }}{% endif %}.
+<strong>Next session:</strong> <a href="/workshop/#session-{{ next.date | date: "%Y-%m-%d" }}">{{ next.title }}</a> — {{ next.date | date: "%A, %B %-d, %Y" }}{% if next.time %}, {{ next.time }}{% endif %} (Room: {{ next.room }}{% if site.data.workshop_info.zoom %} · <a href="{{ site.data.workshop_info.zoom }}">Zoom link</a>{% endif %}), presented by {{ next.speaker }}{% if next.helpers %}, with help from {{ next.helpers }}{% endif %}.
 {%- elsif tba.size > 0 -%}
 {%- assign next = tba[0] -%}
-<strong>Next session:</strong> <a href="/workshop/#session-{{ next.title | slugify }}">{{ next.title }}</a> — date to be announced (Room: {{ next.room }}{% if site.data.workshop_info.zoom %} · <a href="{{ site.data.workshop_info.zoom }}">Zoom link</a>{% endif %}), presented by {{ next.speaker }}{% if next.host %}, hosted by {{ next.host }}{% endif %}.
+<strong>Next session:</strong> <a href="/workshop/#session-{{ next.title | slugify }}">{{ next.title }}</a> — date to be announced (Room: {{ next.room }}{% if site.data.workshop_info.zoom %} · <a href="{{ site.data.workshop_info.zoom }}">Zoom link</a>{% endif %}), presented by {{ next.speaker }}{% if next.helpers %}, with help from {{ next.helpers }}{% endif %}.
 {%- endif -%}

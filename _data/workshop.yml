@@ -13,7 +13,7 @@
 #   date:        YYYY-MM-DD, unquoted, or TBA if the date is not fixed yet (required)
 #   title:       title of the session (required)
 #   speaker:     who presents (required)
-#   host:        who hosts this particular session (optional)
+#   helpers:     who helps out with this particular session (optional)
 #   room:        where the session takes place; use "TBA" if not yet known (required)
 #   time:        e.g. "14:00 - 15:30" (optional; keep the quotes, otherwise YAML reads 14:00 as a number)
 #   description: brief description of the content, Markdown allowed (required)
@@ -40,7 +40,7 @@
   time: "14:00 - 15:00"
   title: "Setting up VS Code with LaTeX, LLM, and GitHub integration"
   speaker: "Julius A. Zeiss and Sven Danz"
-  host: "Hazar Çakır"
+  helpers: "Hazar Çakır"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
   description: >-
     A hands-on walk-through of setting up VS Code as a complete research
