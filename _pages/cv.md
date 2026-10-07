@@ -46,4 +46,4 @@ Tutorials and seminars at RWTH Aachen (since 2023), University of Cologne, and U
 
 ## Service & Outreach
 
-Reviewer for TQC, ISIT, QIP, Beyond IID, and IEEE journals. Founder and host of the [A.I. Workshop](/workshop/) at RWTH Aachen; instructor for [ML4Q](https://ml4q.de/) outreach events — see [Service](/portfolio/).
+Reviewer for TQC, ISIT, QIP, Beyond IID, and IEEE journals. Founder and host of the [A.I. Workshop](/workshop/) at RWTH Aachen (with Sven Danz); instructor for [ML4Q](https://ml4q.de/) outreach events — see [Service](/portfolio/).

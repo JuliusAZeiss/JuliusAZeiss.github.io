@@ -15,13 +15,13 @@ Alongside these algorithmic questions, I study the power and limitations of quan
 
 I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
 
-As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. In my [recent paper on optimal entanglement-assisted source coding](https://arxiv.org/abs/2609.15757), every lemma, theorem, and corollary is formalized and verified in Lean. The [verification code is available on GitHub](https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise). To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
+As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. In my [recent paper on optimal entanglement-assisted source coding](https://arxiv.org/abs/2609.15757), every lemma, theorem, and corollary is formalized and verified in Lean. The [verification code is available on GitHub](https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise). To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen together with Sven Danz — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
 
 I also thoroughly enjoy teaching and supervising students. Outside of research, I enjoy chess, cooking, and playing the guitar.
 
 # Recent News
 
-**A.I. Workshop rescheduled:** The first session, [VS Code LLM integration and GitHub version control](/workshop/#session-2026-10-02), has moved from September 25 to **Friday, October 2, 2026, from 10 am to 11 am**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
+**Next A.I. Workshop:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](/workshop/#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 2 pm to 3 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
 {: .notice--warning}
 
 ## Research
@@ -40,6 +40,6 @@ Drawing on a series of four papers, the talk shows how information-theoretic de 
 
 ## Miscellaneous
 
-I am hosting a regular [A.I. Workshop](/workshop/) at RWTH Aachen: hands-on sessions on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Everyone interested is welcome; upcoming dates, topics, and rooms are listed on the [workshop page](/workshop/).
+Together with Sven Danz, I am hosting a regular [A.I. Workshop](/workshop/) at RWTH Aachen: hands-on sessions on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Everyone interested is welcome; upcoming dates, topics, and rooms are listed on the [workshop page](/workshop/).
 
 {% include workshop-next-session.html %}

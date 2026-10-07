@@ -8,12 +8,12 @@ redirect_from:
   - /workshop.html
 ---
 
-**First session rescheduled:** [VS Code LLM integration and GitHub version control](#session-2026-10-02) has moved from September 25 to **Friday, October 2, 2026, from 10 am to 11 am**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
+**Next session:** [Setting up VS Code with LaTeX, LLM, and GitHub integration](#session-2026-10-09) — a hands-on walk-through and a more technical follow-up to the first session — takes place on **Friday, October 9, 2026, from 2 pm to 3 pm**. Sven Danz will also explain his workflow using Zed and ChatGPT for the coding cycle and documentation.
 {: .notice--warning}
 
-Artificial intelligence is changing how research is done — from coding assistants and literature search to formally verified proofs — but the know-how of using these tools well is spread thinly across groups and rarely written down. The A.I. Workshop is a regular, informal meeting at RWTH Aachen where we share this expertise: we present tools and workflows, try them out hands-on, and discuss how to use AI in a way that makes our scientific work more rigorous, transparent, and reproducible.
+Artificial intelligence is changing how research is done — from coding assistants and literature search to formally verified proofs — but the know-how of using these tools well is spread thinly across groups and rarely written down. The A.I. Workshop is a regular, informal meeting at RWTH Aachen where we share this expertise: we present tools and workflows, try them out hands-on, and discuss how to use AI in a way that makes our scientific work more rigorous, transparent, and reproducible. The workshop is hosted by Julius A. Zeiss (founder) and Sven Danz.
 
-Everyone interested is welcome — students, PhD students, postdocs, and faculty alike — and no prior experience is required. We generally aim to hold the sessions on Fridays from 3 pm to 4 pm, but the dates depend on the availability of speakers and individual sessions may deviate from this, so please check the upcoming sessions below. If you would like to present a tool, a workflow, or a topic in one of the sessions, please [get in touch](mailto:{{ site.author.email }}).
+Everyone interested is welcome — students, PhD students, postdocs, and faculty alike — and no prior experience is required. We generally aim to hold the sessions on Fridays from 3 pm to 4 pm, but the dates depend on the availability of speakers and individual sessions may deviate from this, so please check the upcoming sessions below.{% if site.data.workshop_info.zoom %} All sessions can also be joined online via the same [Zoom link]({{ site.data.workshop_info.zoom }}).{% endif %} If you would like to present a tool, a workflow, or a topic in one of the sessions, please [get in touch](mailto:{{ site.author.email }}).
 
 {%- comment -%}
 Sessions are maintained in _data/workshop.yml; see the comments there.
@@ -50,7 +50,7 @@ are sorted: sorting a mix of dates and strings would fail the build.
 
 {% if upcoming.size > 0 %}
 {% for s in upcoming %}
-{% include workshop-session.html session=s %}
+{% include workshop-session.html session=s zoom=true %}
 {% endfor %}
 {% else %}
 <p>No sessions are scheduled at the moment — please check back soon.</p>

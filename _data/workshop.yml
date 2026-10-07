@@ -13,6 +13,7 @@
 #   date:        YYYY-MM-DD, unquoted, or TBA if the date is not fixed yet (required)
 #   title:       title of the session (required)
 #   speaker:     who presents (required)
+#   host:        who hosts this particular session (optional)
 #   room:        where the session takes place; use "TBA" if not yet known (required)
 #   time:        e.g. "14:00 - 15:30" (optional; keep the quotes, otherwise YAML reads 14:00 as a number)
 #   description: brief description of the content, Markdown allowed (required)
@@ -24,7 +25,7 @@
 - date: 2026-10-02
   time: "10:00 - 11:00"
   title: "VS Code LLM integration and GitHub version control"
-  speaker: "Julius A. Zeiss and Sven Danz"
+  speaker: "Julius A. Zeiss"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
   description: >-
     How to turn VS Code into an AI-assisted research environment: setting up
@@ -33,14 +34,13 @@
     unfamiliar libraries. The second part covers version control with Git and
     GitHub — repositories, commits, branches, and pull requests — and how to use
     it to collaborate on research code and manuscripts and to keep results
-    reproducible. Sven Danz will also explain his workflow using Zed and ChatGPT
-    for the coding cycle and documentation. Bring your laptop if you would like
-    to follow along.
+    reproducible. Bring your laptop if you would like to follow along.
 
 - date: 2026-10-09
   time: "14:00 - 15:00"
   title: "Setting up VS Code with LaTeX, LLM, and GitHub integration"
-  speaker: "Julius A. Zeiss"
+  speaker: "Julius A. Zeiss and Sven Danz"
+  host: "Hazar Çakır"
   room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
   description: >-
     A hands-on walk-through of setting up VS Code as a complete research
@@ -49,8 +49,10 @@
     Step by step, we install and configure a LaTeX toolchain for writing,
     compiling, and previewing documents, connect LLM assistants such as GitHub
     Copilot and Claude Code, and link the editor to Git and GitHub — so that
-    writing, coding, and version control all happen in one place. Bring your
-    laptop if you would like to set everything up during the session.
+    writing, coding, and version control all happen in one place. Sven Danz
+    will also explain his workflow using Zed and ChatGPT for the coding cycle
+    and documentation. Bring your laptop if you would like to set everything
+    up during the session.
 
 - date: TBA
   title: "Prompting for theoretical physics"

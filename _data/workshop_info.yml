@@ -1,0 +1,9 @@
+# General information on the A.I. Workshop that applies to all sessions
+# (the sessions themselves are listed in _data/workshop.yml).
+#
+# zoom: link of the recurring Zoom meeting used for all sessions. It is shown
+#       only as "Zoom link" on the workshop page (intro and upcoming sessions)
+#       and in the "Next session" line on the front page. Leave it empty to
+#       hide it everywhere.
+
+zoom: https://rwth.zoom-x.de/j/68685791484?pwd=yGV6K3yKGMDVZXNzEDfqP2GsniYl4r.1
