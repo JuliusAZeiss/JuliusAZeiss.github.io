@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.8)  19 SEP 2026 08:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.8)  15 OCT 2026 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,20 +441,20 @@ Package rerunfilecheck Info: File `CV_JAZ.out' has not changed.
 (rerunfilecheck)             Checksum: 9DC7F06AA58CE8038BF4E1F0D549617D;1252.
  ) 
 Here is how much of TeX's memory you used:
- 11044 strings out of 478994
- 167973 string characters out of 5858185
+ 11048 strings out of 478994
+ 168019 string characters out of 5858185
  515471 words of memory out of 5000000
  28289 multiletter control sequences out of 15000+600000
- 442212 words of font info for 92 fonts, out of 8000000 for 9000
+ 442425 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,74p,722b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,722b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb>
-Output written on CV_JAZ.pdf (3 pages, 127849 bytes).
+Output written on CV_JAZ.pdf (3 pages, 128121 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream

@@ -25,7 +25,7 @@ Below is a short-form overview; the full CV with all talks, posters, teaching, a
 
 - J. A. Zeiss, *A counterexample to the quantum Hedetniemi conjecture*, [arXiv:2609.20690](https://arxiv.org/abs/2609.20690)
 - J. A. Zeiss, *Optimal entanglement-assisted source coding under a balanced-difference promise*, [arXiv:2609.15757](https://arxiv.org/abs/2609.15757)
-- M. Berta, P. Costa Rico, G. Koßmann, L. Lami, J. A. Zeiss, *Sharp continuity of quantum conditional entropy*, [arXiv:2607.24687](https://arxiv.org/abs/2607.24687)
+- M. Berta, P. Costa Rico, G. Koßmann, L. Lami, J. A. Zeiss, *Sharp continuity of quantum conditional entropy*, [arXiv:2607.24687](https://arxiv.org/abs/2607.24687) — under review at Annales Henri Poincaré
 - G. Koßmann, J. A. Zeiss, *Fixed points in de Finetti hierarchies*, [arXiv:2607.23689](https://arxiv.org/abs/2607.23689) — under review at Communications in Mathematical Physics
 - J. A. Zeiss, G. Koßmann, R. Schwonnek, M. Plávala, *Finite de Finetti for convex bodies and polynomial optimization*, [arXiv:2601.15184](https://arxiv.org/abs/2601.15184) — under review at Mathematical Programming A
 - J. A. Zeiss, G. Koßmann, O. Fawzi, M. Berta, *Approximating fixed size quantum correlations in polynomial time*, [arXiv:2507.12302](https://arxiv.org/abs/2507.12302) — under review at PRX Quantum
