@@ -41,7 +41,7 @@ Below, I provide an overview of my outreach activities and academic service thro
     <p>
       <strong>TQC</strong> — 2023, 2024, 2025<br />
       <strong>ISIT</strong> — 2023, 2024, 2025<br />
-      <strong>QIP</strong> — 2024<br />
+      <strong>QIP</strong> — 2024, 2025, 2026, 2027<br />
       <strong>Beyond IID</strong> — 2023, 2024
     </p>
   </article>
