@@ -26,9 +26,7 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 ## Research
 
-New preprint: [A counterexample to the quantum Hedetniemi conjecture](https://arxiv.org/abs/2609.20690)
-
-New preprint: [Optimal entanglement-assisted source coding under a balanced-difference promise](https://arxiv.org/abs/2609.15757)
+New preprint: [Comment on "The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank"](https://arxiv.org/abs/2610.24542)
 
 Recent Talk: [A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization](https://tqc-conference.org/2026/sessions/contributed5c/) at TQC 2026 in Sherbrooke, Canada.
 Drawing on a series of four papers, the talk shows how information-theoretic de Finetti techniques can be adapted to constrained optimization problems in quantum information theory, closing the gap between constrained and unconstrained instances in terms of approximation algorithms. This conference contribution is joint work with Mario Berta, Omar Fawzi, Gereon Koßmann, and Martin Plavála. The four underlying papers are:
