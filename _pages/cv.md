@@ -23,7 +23,7 @@ Below is a short-form overview; the full CV with all talks, posters, teaching, a
 
 ## Publications and Preprints
 
-- J. A. Zeiss, *Comment on "The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank"*, [arXiv:2610.24542](https://arxiv.org/abs/2610.24542)
+- J. A. Zeiss, *Comment on "The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank"*, [arXiv:2610.24542](https://arxiv.org/abs/2610.24542) — submitted to Linear Algebra and its Applications
 - J. A. Zeiss, *A counterexample to the quantum Hedetniemi conjecture*, [arXiv:2609.20690](https://arxiv.org/abs/2609.20690)
 - J. A. Zeiss, *Optimal entanglement-assisted source coding under a balanced-difference promise*, [arXiv:2609.15757](https://arxiv.org/abs/2609.15757)
 - M. Berta, P. Costa Rico, G. Koßmann, L. Lami, J. A. Zeiss, *Sharp continuity of quantum conditional entropy*, [arXiv:2607.24687](https://arxiv.org/abs/2607.24687) — under review at Annales Henri Poincaré
