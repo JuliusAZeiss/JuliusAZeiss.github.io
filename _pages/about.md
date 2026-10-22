@@ -21,7 +21,7 @@ I also thoroughly enjoy teaching and supervising students. Outside of research, 
 
 # Recent News
 
-**Next A.I. Workshop:** [Prompting for theoretical physics](/workshop/#session-2026-10-16) — an open exchange on what good prompting looks like for theoretical physics work — takes place on **Friday, October 16, 2026, from 3 pm to 4 pm**. Bring examples of prompts that worked well (or failed spectacularly) so that we can discuss them together.
+**Next A.I. Workshop:** [Open discussion: AI in teaching, supervision, and everyday research](/workshop/#session-2026-10-23) takes place on **Friday, October 23, 2026, from 3 pm to 4 pm**. Join an informal discussion and question round, with a focus on adapting teaching and supervision to increasingly capable LLMs. Bring questions, experiences, or simply your curiosity — everyone is welcome, and no preparation is needed.
 {: .notice--warning}
 
 ## Research

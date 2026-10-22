@@ -8,7 +8,7 @@ redirect_from:
   - /workshop.html
 ---
 
-**Next session:** [Prompting for theoretical physics](#session-2026-10-16) — an open exchange on what good prompting looks like for theoretical physics work — takes place on **Friday, October 16, 2026, from 3 pm to 4 pm**. Bring examples of prompts that worked well (or failed spectacularly) so that we can discuss them together.
+**Next session:** [Open discussion: AI in teaching, supervision, and everyday research](#session-2026-10-23) takes place on **Friday, October 23, 2026, from 3 pm to 4 pm**. Join an informal discussion and question round, with a focus on adapting teaching and supervision to increasingly capable LLMs. Bring questions, experiences, or simply your curiosity — everyone is welcome, and no preparation is needed.
 {: .notice--warning}
 
 Artificial intelligence is changing how research is done — from coding assistants and literature search to formally verified proofs — but the know-how of using these tools well is spread thinly across groups and rarely written down. The A.I. Workshop is a regular, informal meeting at RWTH Aachen where we share this expertise: we present tools and workflows, try them out hands-on, and discuss how to use AI in a way that makes our scientific work more rigorous, transparent, and reproducible.
