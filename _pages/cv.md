@@ -9,9 +9,9 @@ redirect_from:
   - /resume-json
 ---
 
-<a href="/files/CV_JAZ.pdf" class="btn btn--primary"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download full CV (PDF)</a>
+<a href="/files/CV_JAZ_revised_v2.pdf" class="btn btn--primary"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download full CV (PDF)</a>
 
-Below is a short-form overview; the full CV with all talks, posters, teaching, and service is available as a [PDF](/files/CV_JAZ.pdf).
+Below is a short-form overview; the full CV with all talks, posters, teaching, and service is available as a [PDF](/files/CV_JAZ_revised_v2.pdf).
 
 ## Education
 
