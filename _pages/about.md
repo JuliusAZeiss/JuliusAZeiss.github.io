@@ -27,22 +27,22 @@ redirect_from:
       </div>
     </div>
     <figure class="hero-figure" id="hero-figure">
-      <svg class="portrait-art" viewBox="0 0 292 365" role="img" aria-labelledby="graph-title" aria-describedby="graph-description">
+      <svg class="portrait-art" id="coloring-graph" viewBox="0 32 292 280" role="img" aria-labelledby="graph-title" aria-describedby="graph-description">
         <title id="graph-title">A proper coloring of the complete graph on five vertices</title>
-        <desc id="graph-description">Every pair of vertices is connected by an edge. The five vertices have distinct colors: teal, blue, ochre, terracotta, and violet, so adjacent vertices always have different colors.</desc>
-        <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".7" fill="#b8c6b7"/></pattern></defs>
-        <rect width="292" height="365" fill="url(#grid)"/>
+        <desc id="graph-description">Every pair of vertices is connected by an edge. Five distinct colors (teal, blue, ochre, terracotta, and violet) cycle between the vertices to illustrate different proper graph colorings.</desc>
         <g fill="none" stroke="#8aa99a" stroke-width="1.1"><path d="M146 64 252 144 211 269 81 269 40 144Z"/><path d="m146 64 65 205L40 144h212L81 269Z"/><circle cx="146" cy="174" r="110" stroke-dasharray="3 7"/></g>
         <g stroke="#f8f7f3" stroke-width="2">
-          <circle cx="146" cy="64" r="8" fill="#235e53"/>
-          <circle cx="252" cy="144" r="8" fill="#3678a8"/>
-          <circle cx="211" cy="269" r="8" fill="#b58a2d"/>
-          <circle cx="81" cy="269" r="8" fill="#c46d50"/>
-          <circle cx="40" cy="144" r="8" fill="#8a6a9e"/>
+          <circle class="graph-vertex" cx="146" cy="64" r="8" fill="#235e53"/>
+          <circle class="graph-vertex" cx="252" cy="144" r="8" fill="#3678a8"/>
+          <circle class="graph-vertex" cx="211" cy="269" r="8" fill="#b58a2d"/>
+          <circle class="graph-vertex" cx="81" cy="269" r="8" fill="#c46d50"/>
+          <circle class="graph-vertex" cx="40" cy="144" r="8" fill="#8a6a9e"/>
         </g>
-        <text x="146" y="332" text-anchor="middle" font-family="Georgia,serif" fill="#496557" font-style="italic" font-size="17">graphs · coloring · information</text>
       </svg>
-      <figcaption class="art-caption">Quantum information · RWTH Aachen</figcaption>
+      <figcaption class="art-caption">
+        Quantum information · RWTH Aachen
+        <button class="graph-toggle" id="graph-toggle" type="button" aria-controls="coloring-graph" aria-label="Pause graph coloring animation" hidden>Pause animation</button>
+      </figcaption>
     </figure>
   </section>
   <section class="wrap section section-grid" id="research" aria-labelledby="research-heading">
