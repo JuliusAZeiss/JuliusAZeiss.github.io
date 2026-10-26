@@ -110,8 +110,29 @@ img[width]{max-width:100%}
 .btn--primary,.btn.primary{background:var(--accent);color:#fff}
 .btn:hover{text-decoration:none;background:var(--tint);color:var(--accent)}
 .btn i{margin-right:4px}
-.map-section{padding-top:12px}
+.map-section{padding-top:0;margin-bottom:32px}
+.map-section .section-title{margin:0 0 18px;font-size:27px}
 .map-section .page__meta{font-size:13px;color:var(--muted);margin:12px 0 0}
+#talk-map{height:420px;width:100%;margin:0;border:1px solid var(--line);border-radius:4px;background:var(--tint);z-index:0}
+#talk-map.leaflet-container{font-family:var(--sans);color:var(--ink)}
+/* Mute the tiles only; markers and map controls keep their original contrast. */
+#talk-map .leaflet-tile{filter:grayscale(1) sepia(.18) hue-rotate(65deg) saturate(.8)}
+#talk-map .leaflet-popup-content-wrapper,#talk-map .leaflet-popup-tip{background:var(--paper);color:var(--ink)}
+#talk-map .leaflet-popup-content-wrapper{border-radius:4px;box-shadow:0 4px 18px #22352a20}
+#talk-map .leaflet-popup-content{font-size:14px;line-height:1.65;margin:18px 22px}
+#talk-map .leaflet-popup-content p{margin:0 0 12px}
+#talk-map .leaflet-popup-content p:last-child{margin-bottom:0}
+#talk-map .leaflet-popup-content a,#talk-map .leaflet-control-attribution a{color:var(--accent)}
+#talk-map .talk-map__place{font-weight:600}
+#talk-map .talk-map__meta{color:var(--muted);font-size:12px}
+#talk-map .leaflet-bar{border:1px solid var(--line);border-radius:3px;box-shadow:0 2px 8px #22352a0d}
+#talk-map .leaflet-bar a{width:36px;height:36px;line-height:36px;background:var(--paper);color:var(--accent);border-bottom:1px solid var(--line)}
+#talk-map .leaflet-bar a:last-child{border-bottom:0}
+#talk-map .leaflet-bar a:hover{background:var(--tint)}
+#talk-map .leaflet-bar a.leaflet-disabled{color:var(--muted)}
+#talk-map a.leaflet-popup-close-button{width:32px;height:32px;line-height:32px;color:var(--accent)}
+#talk-map .leaflet-control-attribution{background:var(--paper);color:var(--muted);font-size:10px;padding:3px 7px}
+@media(max-width:760px){#talk-map{height:300px}#talk-map .leaflet-bar a{width:44px;height:44px;line-height:44px}}
 .page__meta{font-size:14px;color:var(--muted)}
 .page-content .notice--warning,.page-content .notice--info{background:var(--tint);border-left:2px solid #a3b9ac;padding:20px 25px;font-size:15px}
 .page-content table{width:100%;border-collapse:collapse;font-size:15px;display:block;overflow-x:auto;margin-block:25px}

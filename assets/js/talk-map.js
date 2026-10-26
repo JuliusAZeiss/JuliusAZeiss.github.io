@@ -29,8 +29,8 @@
     places[key].talks.push(t);
   });
 
-  /* Marker colour follows the theme's link colour (light/dark mode). */
-  var color = "#1a6fb0";
+  /* Marker colour follows the site's shared accent. */
+  var color = "#235e53";
   if (window.getComputedStyle) {
     var themeColor = getComputedStyle(document.documentElement).getPropertyValue("--global-link-color");
     if (themeColor && themeColor.trim()) { color = themeColor.trim(); }
@@ -47,7 +47,7 @@
       }).join("");
     var marker = L.circleMarker([place.lat, place.lon], {
       radius: 6 + 2 * (place.talks.length - 1),
-      color: color, weight: 2, fillColor: color, fillOpacity: 0.45
+      color: color, weight: 2, fillColor: color, fillOpacity: 0.8
     }).bindPopup(html, { maxWidth: 320 });
     marker.addTo(map);
     markers.push(marker);

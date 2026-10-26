@@ -33,23 +33,7 @@ newlines from the HTML, which would turn a // comment into a script-killer.
 {%- endif %}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<style>
-  #talk-map { height: 380px; width: 100%; margin: 0.5em 0 0.5em; border: 1px solid var(--global-border-color); border-radius: 4px; z-index: 0; }
-  #talk-map.leaflet-container { font-family: inherit; }
-  #talk-map .leaflet-popup-content { font-size: 0.8em; line-height: 1.5; margin: 0.8em 1em; }
-  #talk-map .leaflet-popup-content p { margin: 0.4em 0; }
-  #talk-map .leaflet-popup-content a { color: var(--global-link-color); }
-  #talk-map .talk-map__place { font-weight: bold; }
-  #talk-map .talk-map__meta { color: var(--global-text-color-light); }
-  @media (max-width: 600px) { #talk-map { height: 300px; } }
-  html[data-theme="dark"] #talk-map .leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9); }
-  html[data-theme="dark"] #talk-map .leaflet-popup-content-wrapper,
-  html[data-theme="dark"] #talk-map .leaflet-popup-tip,
-  html[data-theme="dark"] #talk-map .leaflet-control-zoom a,
-  html[data-theme="dark"] #talk-map .leaflet-control-attribution { background: var(--global-bg-color); color: var(--global-text-color); }
-  html[data-theme="dark"] #talk-map .leaflet-control-attribution a { color: var(--global-link-color); }
-</style>
-<div id="talk-map"></div>
-<p class="page__meta"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> Places where I have presented my work — click a marker for details.</p>
+<div id="talk-map" role="region" aria-label="Map of presentation locations" aria-describedby="talk-map-caption"></div>
+<p class="page__meta" id="talk-map-caption">Places where I have presented my work. Select a marker for details.</p>
 <script>window.talkMapData = [{{ points | join: "," }}];</script>
 <script src="{{ base_path }}/assets/js/talk-map.js"></script>

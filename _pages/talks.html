@@ -9,6 +9,11 @@ redirect_from:
   - /talkmap.html
 ---
 
+<section class="archive-section map-section" aria-labelledby="locations">
+  <h2 class="section-title" id="locations">Presentation map</h2>
+  {% include talk-map.html %}
+</section>
+
 <nav class="section-nav" aria-label="Presentation categories">
   {% if site.talk_category %}
     {% for category in site.talk_category %}<a href="#{{ category[0] }}">{{ category[1].title }}</a>{% endfor %}
@@ -40,8 +45,3 @@ redirect_from:
 {% else %}
   <div class="archive-list">{% for post in sorted_talks %}{% include design-talk.html post=post %}{% endfor %}</div>
 {% endif %}
-
-<section class="archive-section map-section" aria-labelledby="locations">
-  <h2 class="section-title" id="locations">Presentation map</h2>
-  {% include talk-map.html %}
-</section>
