@@ -245,10 +245,5 @@ img[width]{max-width:100%}
 }
 
 /* The coloring illustration sits directly on the page, without a panel. */
-.graph-vertex{transition:fill .8s ease}
-.is-paused .graph-vertex{transition:none}
-.graph-toggle{display:block;min-height:44px;margin:2px auto 0;padding:4px 12px;border:0;background:transparent;color:var(--muted);font-family:var(--sans);font-style:normal;font-size:12px;cursor:pointer;text-underline-offset:4px}
-.graph-toggle:hover{color:var(--accent);text-decoration:underline}
-.graph-toggle[hidden]{display:none}
+.graph-vertex{transition:fill .45s ease}
 @media(prefers-reduced-motion:reduce){.graph-vertex{transition:none}}
-@media print{.graph-toggle{display:none}}

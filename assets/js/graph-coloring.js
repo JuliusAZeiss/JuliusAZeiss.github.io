@@ -2,13 +2,11 @@
   "use strict";
 
   const graph = document.getElementById("coloring-graph");
-  const toggle = document.getElementById("graph-toggle");
-  if (!graph || !toggle) return;
+  if (!graph) return;
 
   const vertices = Array.from(graph.querySelectorAll(".graph-vertex"));
   const colors = vertices.map(vertex => vertex.getAttribute("fill"));
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  let paused = false;
   let inView = !("IntersectionObserver" in window);
   let timer = null;
 
@@ -22,20 +20,11 @@
   const sync = () => {
     window.clearInterval(timer);
     timer = null;
-    toggle.hidden = reducedMotion.matches;
-    toggle.textContent = paused ? "Play animation" : "Pause animation";
-    toggle.setAttribute("aria-label", paused ? "Play graph coloring animation" : "Pause graph coloring animation");
-    graph.classList.toggle("is-paused", paused || reducedMotion.matches);
-
-    if (!paused && !reducedMotion.matches && !document.hidden && inView) {
-      timer = window.setInterval(recolor, 3600);
+    if (!reducedMotion.matches && !document.hidden && inView) {
+      timer = window.setInterval(recolor, 1000);
     }
   };
 
-  toggle.addEventListener("click", () => {
-    paused = !paused;
-    sync();
-  });
   reducedMotion.addEventListener("change", sync);
   document.addEventListener("visibilitychange", sync);
 

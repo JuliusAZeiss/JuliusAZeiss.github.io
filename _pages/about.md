@@ -39,10 +39,7 @@ redirect_from:
           <circle class="graph-vertex" cx="40" cy="144" r="8" fill="#8a6a9e"/>
         </g>
       </svg>
-      <figcaption class="art-caption">
-        Quantum information · RWTH Aachen
-        <button class="graph-toggle" id="graph-toggle" type="button" aria-controls="coloring-graph" aria-label="Pause graph coloring animation" hidden>Pause animation</button>
-      </figcaption>
+      <figcaption class="art-caption">Quantum information · RWTH Aachen</figcaption>
     </figure>
   </section>
   <section class="wrap section section-grid" id="research" aria-labelledby="research-heading">
