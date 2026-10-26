@@ -20,7 +20,7 @@ redirect_from:
         <a class="button" href="mailto:julius.zeiss@icloud.com">Get in touch <span aria-hidden="true">↗</span></a>
       </div>
       <div class="profile-links" aria-label="Research profiles">
-        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v2.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v3.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
         <a href="https://scholar.google.com/citations?user=H0WdhxQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
         <a href="https://arxiv.org/search/quant-ph?searchtype=author&amp;query=Zeiss,+J+A">arXiv <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/JuliusAZeiss">GitHub <span aria-hidden="true">↗</span></a>

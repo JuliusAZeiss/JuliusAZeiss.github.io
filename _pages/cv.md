@@ -11,7 +11,7 @@ redirect_from:
   - /resume-json
 ---
 
-<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v2.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
+<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v3.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
 <nav class="section-nav" aria-label="On this page"><a href="#education">Education</a><a href="#publications">Publications</a><a href="#selected-talks">Talks</a><a href="#teaching">Teaching</a><a href="#service">Service</a></nav>
 
 <h2 class="section-title" id="education">Education</h2>

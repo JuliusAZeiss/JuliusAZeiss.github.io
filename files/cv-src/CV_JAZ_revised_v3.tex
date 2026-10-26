@@ -1,0 +1,139 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{xltabular}
+\setlength{\LTpre}{0pt}
+\usepackage{xcolor}
+% Match the website palette; retain a white page for printing.
+\definecolor{accent}{HTML}{235E53}
+\definecolor{ink}{HTML}{222C2B}
+\definecolor{muted}{HTML}{5D6864}
+\definecolor{divider}{HTML}{D7DDD7}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=muted,citecolor=accent}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}{\color{divider}\rule{\textwidth}{0.6pt}}]
+\titlespacing*{\section}{0pt}{1.1em}{0.7em}
+\usepackage{needspace}
+\makeatletter
+\let\cv@section\section
+\renewcommand{\section}{\par\skip@\lastskip\vskip-\skip@\Needspace*{5\baselineskip}\vskip\skip@\cv@section}
+\makeatother
+\setlength{\parindent}{0pt}
+
+\newcommand{\cvitem}[2]{\textcolor{muted}{#1} & #2 \\[0.45em]}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted}Last updated: 25 October 2026}
+\fancyfoot[R]{\footnotesize\color{muted}Page \thepage{} of \pageref{LastPage}}
+
+\begin{document}
+\color{ink}
+\enlargethispage{\baselineskip}
+
+{\LARGE\bfseries\color{accent} Julius Alexander Zeiss, M.Sc.\ Physics}\\[0.4em]
+PhD student, Institute for Quantum Information, RWTH Aachen University, Germany\\
+\href{mailto:julius.zeiss@icloud.com}{julius.zeiss@icloud.com} \,\textbullet\,
+\href{https://juliusazeiss.github.io}{juliusazeiss.github.io}
+
+\section{Profile}
+\begin{itemize}[leftmargin=1.2em,itemsep=0.15em]
+  \item I develop classical algorithms that make difficult quantum problems tractable. Combining group theory, quantum Shannon theory, and convex optimization, I use quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies to obtain rigorous bounds on quantum correlations and quantum error correction. Alongside these algorithmic questions, I study the power and limitations of entanglement in communication tasks and non-local games, especially quantum graph coloring. My work connects quantum information with graph theory and combinatorics, investigating how entanglement changes classical constraints and how graph structure shapes quantum strategies.
+  \item Speaker at leading international conferences (TQC, Beyond IID, AQIS) and invited speaker at institutions including Stanford University and the Perimeter Institute for Theoretical Physics.
+  \item Founder and host of RWTH Aachen's regular A.I.\ Workshop on rigorous, reproducible science with A.I.
+\end{itemize}
+
+\section{Education}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 03/2023}{\textbf{PhD in Physics (Quantum Information Theory), RWTH Aachen University, Germany}\newline Institute for Quantum Information, final-year PhD student\newline Expected completion: 31 March 2027\newline Advisor: Prof.\ Dr.\ Mario Berta}
+\cvitem{10/2019 -- 08/2022}{\textbf{M.Sc.\ Physics, University of Cologne \& University of Bonn, Germany}\newline Focus: theoretical and mathematical physics\newline Thesis: \href{https://juliusazeiss.github.io/files/master_thesis_JAZ.pdf}{\emph{SDP Relaxations for Quantum Inflation}}\newline Advisor: Prof.\ Dr.\ David Gross, Thesis grade: 1.0 (very good)\newline Overall grade: 1.4 (very good)}
+\cvitem{10/2018 -- 08/2019}{\textbf{Master's studies in Physics, University of M\"unster, Germany}\newline Transferred to Cologne/Bonn\newline Focus: theoretical physics, quantum information theory, biophysics}
+\cvitem{10/2015 -- 09/2018}{\textbf{B.Sc.\ Physics, University of M\"unster, Germany}\newline Thesis: \emph{Numerical Treatment of the Manning Potential for the Description of Ammonia}\newline Advisor: Prof.\ Dr.\ Gernot M\"unster, Thesis grade: 1.0 (very good)\newline Overall grade: 1.8 (good)}
+\cvitem{04/2013 -- 09/2015}{\textbf{Bachelor's studies in Business Administration, University of M\"unster, Germany}\newline Transferred to physics}
+\cvitem{09/2010 -- 05/2012}{\textbf{International Baccalaureate, King William's College, Isle of Man}\newline Overall grade: 41/45 points (very good, 1.1 German Abitur)}
+\end{xltabular}
+
+\section{Publications and Preprints}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{2026}{\textbf{J.~A.~Zeiss}, \emph{Comment on ``The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank''}, \href{https://arxiv.org/abs/2610.24542}{arXiv:2610.24542} (submitted to Linear Algebra and its Applications)}
+\cvitem{2026}{\textbf{J.~A.~Zeiss}, \emph{A counterexample to the quantum Hedetniemi conjecture},\newline \href{https://arxiv.org/abs/2609.20690}{arXiv:2609.20690}}
+\cvitem{2026}{\textbf{J.~A.~Zeiss}, \emph{Optimal entanglement-assisted source coding under a balanced-difference promise}, \href{https://arxiv.org/abs/2609.15757}{arXiv:2609.15757} \textbullet\ \href{https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise}{Lean formalization}}
+\cvitem{2026}{M.~Berta, P.~Costa Rico, G.~Ko\ss mann, L.~Lami, \textbf{J.~A.~Zeiss}, \emph{Sharp continuity of quantum conditional entropy}, \href{https://arxiv.org/abs/2607.24687}{arXiv:2607.24687} (under review at Annales Henri Poincar\'e)}
+\cvitem{2026}{G.~Ko\ss mann, \textbf{J.~A.~Zeiss}, \emph{Fixed points in de Finetti hierarchies}, \href{https://arxiv.org/abs/2607.23689}{arXiv:2607.23689} (under review at Communications in Mathematical Physics)}
+\cvitem{2026}{\textbf{J.~A.~Zeiss}, G.~Ko\ss mann, R.~Schwonnek, M.~Pl\'avala, \emph{Finite de Finetti for convex bodies and polynomial optimization}, \href{https://arxiv.org/abs/2601.15184}{arXiv:2601.15184} (under review at Mathematical Programming A)}
+\cvitem{2025}{\textbf{J.~A.~Zeiss}, G.~Ko\ss mann, O.~Fawzi, M.~Berta, \emph{Approximating fixed size quantum correlations in polynomial time}, \href{https://arxiv.org/abs/2507.12302}{arXiv:2507.12302} (under review at PRX Quantum)}
+\cvitem{2025}{G.~Ko\ss mann, \textbf{J.~A.~Zeiss}, O.~Fawzi, M.~Berta, \emph{On approximate quantum error correction for symmetric noise}, \href{https://arxiv.org/abs/2507.12326}{arXiv:2507.12326} (under review at Quantum)}
+\end{xltabular}
+
+\enlargethispage{2pt}
+\section{Invited Talks}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{06/2026}{\textbf{Stanford University, CS Theory Group, Palo Alto, USA}\newline \emph{A Family of Information-theoretic de Finetti Theorems for Constrained Optimization}}
+\cvitem{04/2026}{\textbf{University of Cologne, Quantum Information Seminar, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{07/2023}{\textbf{Siegen University, Germany}\newline \emph{Inner approximation schemes for approximate quantum error correction}}
+\cvitem{02/2023}{\textbf{Perimeter Institute for Theoretical Physics, Waterloo, Canada}\newline \emph{Infinite Dimensional Optimisation Problems in Quantum Information --- An operator algebra approach to the NPA Hierarchy}}
+\cvitem{05/2022}{\textbf{Alpen-Adria-Universit\"at Klagenfurt, Austria}\newline \emph{SDP methods for the quantum causal compatibility problem}}
+\end{xltabular}
+
+\section{Contributed Talks}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{09/2026}{\textbf{TQC 2026, Sherbrooke, Canada}\newline \emph{A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization}}
+\cvitem{05/2026}{\textbf{ILAS 2026, Virginia Tech, Blacksburg, USA}\newline \emph{Convergent Inner-Outer Approximation Schemes From De Finetti Theorems For Games And Quantum Error Correction}}
+\cvitem{05/2026}{\textbf{ILAS 2026, Virginia Tech, Blacksburg, USA}\newline \emph{Information-theoretic finite de Finetti theorems for quantum and beyond}\textsuperscript{*}}
+\cvitem{03/2026}{\textbf{Quantum at the Dunes, IIP-UFRN, Natal, Brazil}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{08/2025}{\textbf{AQIS 2025, The University of Hong Kong, Hong Kong}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{07/2025}{\textbf{13th Beyond IID in Information Theory, TUM Institute for Advanced Study, Garching, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{07/2025}{\textbf{13th Beyond IID in Information Theory, TUM Institute for Advanced Study, Garching, Germany}\newline \emph{On approximate quantum error correction for symmetric noise}\textsuperscript{*}}
+\multicolumn{2}{@{}r@{}}{\small \textsuperscript{*}\,Talk given by a co-author.}\\
+\end{xltabular}
+
+\section{Posters}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{04/2026}{\textbf{851.\ WE-Heraeus-Seminar: 90 Years of Einstein-Podolsky-Rosen Paradox, Bad Honnef, Germany}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{01/2026}{\textbf{QIP 2026, Riga, Latvia}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\cvitem{08/2025}{\textbf{QMATH Masterclass on Representation Theory in Quantum Information Science, University of Copenhagen, Denmark}\newline \emph{Schur--Weyl Duality for Efficient Approximation of Constrained Separability}}
+\cvitem{07/2024}{\textbf{Beyond IID in Information Theory, University of Illinois Urbana-Champaign, USA}\newline \emph{Approximating fixed size quantum correlations in polynomial time}}
+\end{xltabular}
+
+\section{Teaching and Supervision}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 03/2023}{\textbf{RWTH Aachen University, Germany}\newline Head tutor and organizer: Advanced Seminar on Bell Inequalities\newline \mbox{(winter semester 2026/27)}\newline Supervised two master's and two bachelor's theses in quantum information theory\newline Tutorials: Quantum Information Theory (master's; 2024, 2025), Quantum Mechanics (bachelor's; 2025), Statistical Physics (bachelor's; 2023, 2024)\newline Master's seminar: Advanced Topics in Quantum Information Theory (2024, 2026)}
+\cvitem{04/2021 -- 04/2022}{\textbf{University of Cologne, Germany}\newline Tutorials: Linear Algebra \& Analysis, Proofs in Mathematics, Theoretical Physics}
+\cvitem{04/2019 -- 09/2019}{\textbf{University of M\"unster, Germany}\newline Tutorials: Applied Physics}
+\end{xltabular}
+
+\section{Academic Service}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{Conference reviewing}{TQC (2023, 2024, 2025) \textbullet\ ISIT (2023, 2024, 2025) \textbullet\ QIP (2024, 2025, 2026, 2027) \textbullet\ Beyond IID (2023, 2024)}
+\cvitem{Journal refereeing}{IEEE Transactions on Information Theory (2025)}
+\end{xltabular}
+
+\section{Outreach}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{since 2026}{\textbf{A.I.\ Workshop, RWTH Aachen University, Germany}\newline Founder and host of a regular workshop on A.I.\ tools for research (from coding assistants and version control to formally verified proofs) and on using them to conduct better science}
+\cvitem{2024 -- 2026}{\textbf{ML4Q --- Matter and Light for Quantum Computing, Germany}\newline Instructor: school internships (July 2024), Quanteen Day 2024, Quanteen Day 2026}
+\cvitem{11/2022}{\textbf{DPG Physik Journal}\newline A.~Matthies and J.~Zeiss, \emph{Quantum Computing}, review article on the Quantum Computing Bad Honnef Physics School, Physik Journal 21 (2022) No.~11, p.~57}
+\end{xltabular}
+
+\section{Skills}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{Languages}{German (native), English (bilingual)}
+\cvitem{Coding}{Python, Mathematica, Lean (formal verification), Git, GitHub, Fortran, PHP, JavaScript, HTML, SQL, VBA}
+\end{xltabular}
+
+\section{Other Professional Experience}
+\begin{xltabular}{\textwidth}{@{}p{3.3cm}@{\hspace{0.5cm}}X@{}}
+\cvitem{2014, 2015}{\textbf{Fielmann AG, Hamburg, Germany}\newline DCF modeling with Monte Carlo simulations, VBA and SQL solutions}
+\cvitem{01/2013 -- 02/2013}{\textbf{HMT, Hamburg, Germany}\newline Mathematical modeling using Monte Carlo simulations}
+\cvitem{08/2011}{\textbf{AKO Capital, London, England}\newline Internship in financial research using mathematical modeling}
+\end{xltabular}
+
+\end{document}
