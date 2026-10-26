@@ -18,7 +18,7 @@ redirect_from:
 <div class="archive-list">
   <article class="entry-row"><div class="entry-date">Since Mar 2023</div><div class="entry-body"><h3 class="entry-title">PhD in Physics</h3><p class="entry-meta">Quantum Information Theory · RWTH Aachen University</p><p>Institute for Quantum Information<br>Advisor: Prof. Dr. Mario Berta</p></div></article>
   <article class="entry-row"><div class="entry-date">2019–2022</div><div class="entry-body"><h3 class="entry-title">M.Sc. Physics</h3><p class="entry-meta">University of Cologne &amp; University of Bonn</p><p>Thesis: <a href="{{ '/files/master_thesis_JAZ.pdf' | relative_url }}"><em>SDP Relaxations for Quantum Inflation</em></a><br>Advisor: Prof. Dr. David Gross</p></div></article>
-  <article class="entry-row"><div class="entry-date">2015–2018</div><div class="entry-body"><h3 class="entry-title">B.Sc. Physics</h3><p class="entry-meta">University of Münster</p></div></article>
+  <article class="entry-row"><div class="entry-date">2015–2018</div><div class="entry-body"><h3 class="entry-title">B.Sc. Physics</h3><p class="entry-meta">University of Münster</p><p>Thesis: <a href="https://www.uni-muenster.de/imperia/md/content/physik_tp/theses/muenster/zeiss-ba.pdf"><em>Numerical Treatment of the Manning Potential for the Description of Ammonia</em></a><br>Advisor: Prof. Dr. Gernot Münster</p></div></article>
 </div>
 
 <h2 class="section-title" id="publications">Publications and preprints</h2>
