@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Service"
-permalink: /portfolio/
+permalink: /portfolio/reviewing/
 author_profile: true
 ---
 

@@ -1,0 +1,19 @@
+{% assign publication = include.post %}
+<article class="entry-row" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <div class="entry-date">
+    <time datetime="{{ publication.date | date: '%Y-%m-%d' }}">{{ publication.date | date: '%d %b' }}</time>
+  </div>
+  <div class="entry-body">
+    <p class="entry-meta">{% if publication.type == 'preprint' %}Preprint{% else %}{{ publication.venue }}{% endif %}{% if publication.status %} · {{ publication.status }}{% endif %}</p>
+    <h3 class="entry-title" itemprop="headline"><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+    {% if publication.authors %}<p class="entry-meta" itemprop="author">{{ publication.authors }}</p>{% endif %}
+    {% if publication.excerpt and publication.excerpt != '' %}<div class="entry-summary">{{ publication.excerpt | markdownify }}</div>{% endif %}
+    <div class="entry-links">
+      {% if publication.paperurl %}<a href="{% if publication.paperurl contains '://' %}{{ publication.paperurl }}{% else %}{{ publication.paperurl | relative_url }}{% endif %}">{% if publication.arxiv %}arXiv:{{ publication.arxiv }}{% else %}Read paper{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.slidesurl %}<a href="{% if publication.slidesurl contains '://' %}{{ publication.slidesurl }}{% else %}{{ publication.slidesurl | relative_url }}{% endif %}">Slides <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.bibtexurl %}<a href="{% if publication.bibtexurl contains '://' %}{{ publication.bibtexurl }}{% else %}{{ publication.bibtexurl | relative_url }}{% endif %}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+      <a href="{{ publication.url | relative_url }}">Publication details <span aria-hidden="true">→</span></a>
+    </div>
+    {% if publication.citation %}<details class="entry-citation"><summary>Citation</summary><p>{{ publication.citation }}</p></details>{% endif %}
+  </div>
+</article>

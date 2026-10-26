@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">JULIUS A. ZEISS</a>
+    <button class="menu-button" id="menu-toggle" aria-controls="navigation" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+    <nav class="navigation" id="navigation" aria-label="Main navigation">
+      {% for item in site.data.navigation.main %}
+      {% assign current = false %}
+      {% if page.url contains item.url %}{% assign current = true %}{% endif %}
+      {% if item.title == 'Publications' and page.collection == 'publications' %}{% assign current = true %}{% endif %}
+      <a{% if item.title == 'CV' %} class="nav-cv"{% endif %} href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

@@ -1,13 +1,13 @@
 ---
 layout: archive
 title: "Teaching"
-permalink: /teaching/
+permalink: /teaching/experience/
 author_profile: true
 ---
 
 Please find below an overview of my teaching experience over the years.
 
-# Courses
+## Courses
 
 | Year | Level | Type | Title | Venue |
 |------|-------|------|-------|-------|
@@ -23,7 +23,7 @@ Please find below an overview of my teaching experience over the years.
 | 2019 | Bachelor | Tutorials | Applied physics | University of Münster |
 
 
-# Supervised students
+## Supervised students
 
 ## Master's theses
 

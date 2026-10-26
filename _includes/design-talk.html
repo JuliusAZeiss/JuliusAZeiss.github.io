@@ -1,0 +1,14 @@
+{% assign presentation = include.post %}
+<article class="entry-row" itemscope itemtype="https://schema.org/CreativeWork">
+  <div class="entry-date">
+    <time datetime="{{ presentation.date | date: '%Y-%m-%d' }}">{{ presentation.date | date: '%d %b' }}<br>{{ presentation.date | date: '%Y' }}</time>
+  </div>
+  <div class="entry-body">
+    {% if presentation.type %}<p class="entry-meta">{{ presentation.type }}</p>{% endif %}
+    <h3 class="entry-title" itemprop="headline"><a href="{{ presentation.url | relative_url }}">{{ presentation.title }}</a></h3>
+    {% if presentation.venue %}<p class="entry-meta">{{ presentation.venue }}{% if presentation.location %}<br>{{ presentation.location }}{% endif %}</p>{% endif %}
+    {% if presentation.speaker %}<p class="entry-meta">Presented by {{ presentation.speaker }}</p>{% endif %}
+    {% if presentation.excerpt %}<div class="entry-summary">{{ presentation.excerpt | markdownify }}</div>{% endif %}
+    <div class="entry-links"><a href="{{ presentation.url | relative_url }}">Details &amp; resources <span aria-hidden="true">→</span></a></div>
+  </div>
+</article>

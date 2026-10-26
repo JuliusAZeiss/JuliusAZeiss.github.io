@@ -1,43 +1,80 @@
 ---
+layout: home
+title: "Julius A. Zeiss"
+description: "Quantum information theory at RWTH Aachen. Algorithms with provable guarantees, entanglement, and non-local games."
 permalink: /
-title: "Hey, I am Julius!"
-author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a final year PhD student in quantum information theory supervised by Prof. Dr. Mario Berta at RWTH Aachen.
-
-I develop classical algorithms that make difficult quantum problems tractable. Many fundamental questions in quantum information, such as the strength of quantum correlations and the limits of quantum error correction, are computationally intractable and, in some settings, even undecidable. By combining group theory, quantum Shannon theory, and convex optimization, I build methods with provable guarantees. In particular, I use quantum de Finetti theorems and symmetry-reduced semidefinite programming hierarchies to obtain rigorous, computable bounds for problems that would otherwise remain out of reach. 
-
-Alongside these algorithmic questions, I study the power and limitations of quantum entanglement in communication tasks and non-local games, especially quantum graph coloring. I am particularly interested in how entanglement changes classical combinatorial constraints and how graph structure determines the possibilities and limits of quantum strategies. Graph problems provide a common thread through this work, connecting fundamental mathematical questions with operational tasks in quantum information. My interest in this interplay began during my master’s thesis, where I investigated the quantum causal compatibility problem through inflation graphs.
-
-I have presented my work at leading international conferences such as TQC, Beyond IID, and AQIS, and have given invited talks at institutions including Stanford's theoretical computer science group and the Perimeter Institute for Theoretical Physics. For a full list, see [Talks](/talks/).
-
-As of 2026, I am especially interested in furthering our understanding of nature through AI — ranging from large language models to formally verified proofs in Lean. In my [recent paper on optimal entanglement-assisted source coding](https://arxiv.org/abs/2609.15757), every lemma, theorem, and corollary is formalized and verified in Lean. The [verification code is available on GitHub](https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise). To share this expertise, I host a regular [A.I. Workshop](/workshop/) at RWTH Aachen — a forum for exchanging hands-on experience with AI tools and for discussing how they can improve the way we conduct science.
-
-I also thoroughly enjoy teaching and supervising students. Outside of research, I enjoy chess, cooking, and playing the guitar.
-
-# Recent News
-
-**Next A.I. Workshop:** [Open discussion: AI in teaching, supervision, and everyday research](/workshop/#session-2026-10-23) takes place on **Friday, October 23, 2026, from 3 pm to 4 pm**. Join an informal discussion and question round, with a focus on adapting teaching and supervision to increasingly capable LLMs. Bring questions, experiences, or simply your curiosity — everyone is welcome, and no preparation is needed.
-{: .notice--warning}
-
-## Research
-
-New preprint: [Comment on "The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank"](https://arxiv.org/abs/2610.24542)
-
-Recent Talk: [A Family of Information-Theoretic de Finetti Theorems for Constrained Optimization](https://tqc-conference.org/2026/sessions/contributed5c/) at TQC 2026 in Sherbrooke, Canada.
-Drawing on a series of four papers, the talk shows how information-theoretic de Finetti techniques can be adapted to constrained optimization problems in quantum information theory, closing the gap between constrained and unconstrained instances in terms of approximation algorithms. This conference contribution is joint work with Mario Berta, Omar Fawzi, Gereon Koßmann, and Martin Plavála. The four underlying papers are:
-
-- [Approximating fixed size quantum correlations in polynomial time](https://arxiv.org/abs/2507.12302)
-- [On approximate quantum error correction for symmetric noise](https://arxiv.org/abs/2507.12326)
-- [Finite de Finetti for convex bodies and Polynomial Optimization](https://arxiv.org/abs/2601.15184) (also joint work with René Schwonnek)
-- [Fixed points in de Finetti hierarchies](https://arxiv.org/abs/2607.23689)
-
-## Miscellaneous
-
-I am hosting a regular [A.I. Workshop](/workshop/) at RWTH Aachen: hands-on sessions on AI tools for research — from coding assistants and version control to formally verified proofs — and on using them to conduct better science. Everyone interested is welcome; upcoming dates, topics, and rooms are listed on the [workshop page](/workshop/).
-
-{% include workshop-next-session.html %}
+  <section class="wrap hero" aria-labelledby="name">
+    <div>
+      <p class="eyebrow">Quantum information theory</p>
+      <h1 id="name">Julius A. Zeiss</h1>
+      <p class="role">PhD researcher · RWTH Aachen University</p>
+      <p class="intro">I develop classical algorithms for difficult quantum problems, and study the power and limitations of quantum entanglement.</p>
+      <p class="intro-secondary">Final-year PhD student at the Institute for Quantum Information, supervised by Prof. Mario Berta.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+        <a class="button" href="mailto:julius.zeiss@icloud.com">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="profile-links" aria-label="Research profiles">
+        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v2.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
+        <a href="https://scholar.google.com/citations?user=H0WdhxQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a href="https://arxiv.org/search/quant-ph?searchtype=author&amp;query=Zeiss,+J+A">arXiv <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/JuliusAZeiss">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="hero-figure" id="hero-figure">
+      <svg class="portrait-art" viewBox="0 0 292 365" role="img" aria-labelledby="graph-title" aria-describedby="graph-description">
+        <title id="graph-title">A proper coloring of the complete graph on five vertices</title>
+        <desc id="graph-description">Every pair of vertices is connected by an edge. The five vertices have distinct colors: teal, blue, ochre, terracotta, and violet, so adjacent vertices always have different colors.</desc>
+        <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".7" fill="#b8c6b7"/></pattern></defs>
+        <rect width="292" height="365" fill="url(#grid)"/>
+        <g fill="none" stroke="#8aa99a" stroke-width="1.1"><path d="M146 64 252 144 211 269 81 269 40 144Z"/><path d="m146 64 65 205L40 144h212L81 269Z"/><circle cx="146" cy="174" r="110" stroke-dasharray="3 7"/></g>
+        <g stroke="#f8f7f3" stroke-width="2">
+          <circle cx="146" cy="64" r="8" fill="#235e53"/>
+          <circle cx="252" cy="144" r="8" fill="#3678a8"/>
+          <circle cx="211" cy="269" r="8" fill="#b58a2d"/>
+          <circle cx="81" cy="269" r="8" fill="#c46d50"/>
+          <circle cx="40" cy="144" r="8" fill="#8a6a9e"/>
+        </g>
+        <text x="146" y="332" text-anchor="middle" font-family="Georgia,serif" fill="#496557" font-style="italic" font-size="17">graphs · coloring · information</text>
+      </svg>
+      <figcaption class="art-caption">Quantum information · RWTH Aachen</figcaption>
+    </figure>
+  </section>
+  <section class="wrap section section-grid" id="research" aria-labelledby="research-heading">
+    <div class="section-heading"><h2 id="research-heading">Research</h2><p>Mathematics and algorithms for quantum information.</p><a class="text-link" href="{{ "/research/" | relative_url }}">Research profile <span aria-hidden="true">↗</span></a></div>
+    <div>
+      <article class="research-row"><span class="number" aria-hidden="true">01</span><div><h3>Algorithms with provable guarantees</h3><p>I combine group theory, quantum Shannon theory, and convex optimization to obtain rigorous, computable bounds, using de Finetti theorems and symmetry-reduced semidefinite programming hierarchies.</p></div></article>
+      <article class="research-row"><span class="number" aria-hidden="true">02</span><div><h3>Entanglement and non-local games</h3><p>I study how entanglement changes communication tasks and classical combinatorial constraints, with a particular interest in non-local games such as quantum graph coloring.</p></div></article>
+      <article class="research-row"><span class="number" aria-hidden="true">03</span><div><h3>AI and formally verified mathematics</h3><p>I explore AI tools for scientific work and formal verification in Lean, connecting mathematical reasoning with machine-checked proofs.</p></div></article>
+      <p class="research-note">My work also connects to quantum error correction and quantum causal compatibility.</p>
+    </div>
+  </section>
+  <div class="publications">
+    <section class="wrap section section-grid" id="publications" aria-labelledby="publications-heading">
+      <div class="section-heading"><h2 id="publications-heading">Selected work</h2><p>A selection of preprints across my research interests.</p><a class="text-link" href="{{ site.baseurl }}/publications/">All publications <span aria-hidden="true">↗</span></a></div>
+      <div>
+        <article class="publication"><div class="publication-meta"><span>2026</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2609.15757">Optimal entanglement-assisted source coding under a balanced-difference promise</a></h3><p class="authors">Julius A. Zeiss</p><div class="paper-links"><a href="https://arxiv.org/abs/2609.15757">arXiv <span aria-hidden="true">↗</span></a><a href="https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise">Lean verification <span aria-hidden="true">↗</span></a></div></article>
+        <article class="publication"><div class="publication-meta"><span>2026</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2601.15184">Finite de Finetti for convex bodies and polynomial optimization</a></h3><p class="authors">Julius A. Zeiss, Gereon Koßmann, René Schwonnek, Martin Plávala</p><div class="paper-links"><a href="https://arxiv.org/abs/2601.15184">arXiv <span aria-hidden="true">↗</span></a></div></article>
+        <article class="publication"><div class="publication-meta"><span>2025</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2507.12302">Approximating fixed size quantum correlations in polynomial time</a></h3><p class="authors">Julius A. Zeiss, Gereon Koßmann, Omar Fawzi, Mario Berta</p><div class="paper-links"><a href="https://arxiv.org/abs/2507.12302">arXiv <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </section>
+  </div>
+  <div class="updates">
+    <section class="wrap section section-grid" aria-labelledby="updates-heading">
+      <div class="section-heading"><h2 id="updates-heading">Recent updates</h2><p>Research, talks, and conversations.</p></div>
+      <div>
+        <article class="update"><time datetime="2026-10">Oct 2026</time><p><strong>New preprint.</strong> <a href="https://arxiv.org/abs/2610.24542">Comment on “The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank”.</a></p></article>
+        <article class="update"><time datetime="2026-10-23">23 Oct<br>2026</time><p><strong>AI Workshop.</strong> Open discussion on AI in teaching, supervision, and everyday research. <a href="{{ site.baseurl }}/workshop/#session-2026-10-23">Session details <span aria-hidden="true">↗</span></a></p></article>
+      </div>
+    </section>
+  </div>
+  <section class="wrap section community" aria-label="Teaching and scientific exchange">
+    <div id="teaching"><p class="eyebrow">Teaching &amp; supervision</p><h2>Learning quantum information</h2><p>I enjoy teaching and supervising students, from foundational courses in physics to advanced topics in quantum information theory.</p><a class="text-link" href="{{ site.baseurl }}/teaching/">Courses &amp; supervised theses <span aria-hidden="true">↗</span></a></div>
+    <div id="workshop"><p class="eyebrow">AI Workshop at RWTH</p><h2>A space to exchange ideas</h2><p>Hands-on sessions and open discussions on AI tools for research, teaching, and formally verified mathematics. Everyone interested is welcome.</p><a class="text-link" href="{{ site.baseurl }}/workshop/">Explore the workshop <span aria-hidden="true">↗</span></a></div>
+  </section>
+  <section class="wrap contact" aria-labelledby="contact-heading"><div><h2 id="contact-heading">Get in touch</h2><p>Research, teaching, or a conversation about quantum information.</p></div><a href="mailto:julius.zeiss@icloud.com">julius.zeiss@icloud.com <span aria-hidden="true">↗</span></a></section>

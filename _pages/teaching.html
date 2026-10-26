@@ -1,12 +1,15 @@
 ---
 layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
+title: "Teaching archive"
+eyebrow: "Teaching & supervision"
+subtitle: "Detailed records of courses and student research."
+permalink: /teaching-archive/
+author_profile: false
 ---
 
-{% include base_path %}
-
+<p class="entry-links"><a href="{{ '/teaching/' | relative_url }}">← Teaching & supervision</a></p>
+<div class="archive-list">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <article class="entry-row"><div class="entry-date">Teaching</div><div class="entry-body"><h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2><p>Courses and supervised theses.</p><p class="entry-links"><a href="{{ post.url | relative_url }}">View record <span aria-hidden="true">↗</span></a></p></div></article>
 {% endfor %}
+</div>

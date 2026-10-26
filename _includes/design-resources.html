@@ -1,0 +1,11 @@
+{% assign resource = include.item %}
+{% if resource.paperurl or resource.slidesurl or resource.bibtexurl or resource.link or resource.posterurl or resource.video %}
+<div class="entry-links detail-resources" aria-label="Resources">
+{% if resource.paperurl %}<a class="button primary" href="{{ resource.paperurl }}">{% if resource.type == 'preprint' %}Read on arXiv{% else %}Read paper{% endif %} ↗</a>{% endif %}
+{% if resource.slidesurl %}<a href="{{ resource.slidesurl }}">Slides ↗</a>{% endif %}
+{% if resource.bibtexurl %}<a href="{{ resource.bibtexurl }}">BibTeX ↗</a>{% endif %}
+{% if resource.posterurl %}<a href="{{ resource.posterurl }}">Poster ↗</a>{% endif %}
+{% if resource.video %}<a href="{{ resource.video }}">Video ↗</a>{% endif %}
+{% if resource.link %}<a href="{{ resource.link }}">Related resource ↗</a>{% endif %}
+</div>
+{% endif %}
