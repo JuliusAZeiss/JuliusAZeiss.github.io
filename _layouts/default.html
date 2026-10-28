@@ -15,7 +15,8 @@
   <link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title | escape }}">
   <script>document.documentElement.className='js';</script>
   <script defer src="{{ '/assets/js/design.js' | relative_url }}"></script>
-  {% if page.url == '/' %}<script defer src="{{ '/assets/js/graph-coloring.js' | relative_url }}"></script>{% endif %}
+  {% if page.url == '/' %}<script defer src="{{ '/assets/js/graph-coloring.js' | relative_url }}"></script>{% endif %}{% if page.mathjax %}
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>{% endif %}
 </head>
 <body class="no-portrait{% if page.url == '/' %} home-page{% else %} inner-page{% endif %}">
   <a class="skip" href="#main">Skip to content</a>

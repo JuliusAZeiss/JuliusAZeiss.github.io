@@ -10,7 +10,12 @@ layout: default
     {% if page.collection == 'publications' %}<p class="detail-meta">{{ page.date | date: '%Y' }}{% if page.venue %} · {{ page.venue }}{% endif %}{% if page.arxiv %}:{{ page.arxiv }}{% endif %}</p>{% elsif page.date %}<p class="detail-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y' }}</time>{% if page.venue %} · {{ page.venue }}{% endif %}</p>{% endif %}
     {% if page.collection == 'publications' %}{% include design-resources.html item=page %}{% endif %}
   </header>
-  <div class="page-content prose">{{ content }}</div>
+  <div class="page-content prose">{% if page.collection == 'publications' and page.abstract %}
+    <section aria-labelledby="abstract-heading">
+      <h2 id="abstract-heading">Abstract</h2>
+      {{ page.abstract | markdownify }}
+    </section>
+  {% endif %}{{ content }}</div>
   {% if page.citation %}<section class="citation-block" aria-label="Citation"><h2>Citation</h2><p>{{ page.citation }}</p></section>{% endif %}
   {% unless page.collection == 'publications' %}{% include design-resources.html item=page %}{% endunless %}
 </article>
