@@ -11,7 +11,7 @@ redirect_from:
   - /resume-json
 ---
 
-<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v3.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
+<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v4.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
 <nav class="section-nav" aria-label="On this page"><a href="#education">Education</a><a href="#publications">Publications</a><a href="#selected-talks">Talks</a><a href="#teaching">Teaching</a><a href="#service">Service</a></nav>
 
 <h2 class="section-title" id="education">Education</h2>
@@ -23,6 +23,7 @@ redirect_from:
 
 <h2 class="section-title" id="publications">Publications and preprints</h2>
 <div class="archive-list">
+<article class="entry-row"><div class="entry-date">2026</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2610.41977">Hedetniemi's conjecture for Shannon OR-capacity: counterexamples and asymptotic separation</a></h3><p class="entry-meta">J. A. Zeiss</p><p class="entry-links"><a href="https://arxiv.org/abs/2610.41977">arXiv:2610.41977 <span aria-hidden="true">↗</span></a></p></div></article>
 <article class="entry-row"><div class="entry-date">2026</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2610.24542">Comment on &quot;The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank&quot;</a></h3><p class="entry-meta">J. A. Zeiss</p><p class="entry-meta">submitted to Linear Algebra and its Applications</p><p class="entry-links"><a href="https://arxiv.org/abs/2610.24542">arXiv:2610.24542 <span aria-hidden="true">↗</span></a></p></div></article>
 <article class="entry-row"><div class="entry-date">2026</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2609.20690">A counterexample to the quantum Hedetniemi conjecture</a></h3><p class="entry-meta">J. A. Zeiss</p><p class="entry-links"><a href="https://arxiv.org/abs/2609.20690">arXiv:2609.20690 <span aria-hidden="true">↗</span></a></p></div></article>
 <article class="entry-row"><div class="entry-date">2026</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2609.15757">Optimal entanglement-assisted source coding under a balanced-difference promise</a></h3><p class="entry-meta">J. A. Zeiss</p><p class="entry-links"><a href="https://arxiv.org/abs/2609.15757">arXiv:2609.15757 <span aria-hidden="true">↗</span></a></p></div></article>

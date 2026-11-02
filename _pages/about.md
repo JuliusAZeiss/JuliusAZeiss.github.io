@@ -20,9 +20,9 @@ redirect_from:
         <a class="button" href="mailto:julius.zeiss@icloud.com">Get in touch <span aria-hidden="true">↗</span></a>
       </div>
       <div class="profile-links" aria-label="Research profiles">
-        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v3.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v4.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
         <a href="https://scholar.google.com/citations?user=H0WdhxQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
-        <a href="https://arxiv.org/search/quant-ph?searchtype=author&amp;query=Zeiss,+J+A">arXiv <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.author.arxiv | escape }}">arXiv <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/JuliusAZeiss">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -55,6 +55,7 @@ redirect_from:
     <section class="wrap section section-grid" id="publications" aria-labelledby="publications-heading">
       <div class="section-heading"><h2 id="publications-heading">Selected work</h2><p>A selection of preprints across my research interests.</p><a class="text-link" href="{{ site.baseurl }}/publications/">All publications <span aria-hidden="true">↗</span></a></div>
       <div>
+        <article class="publication"><div class="publication-meta"><span>2026</span><span class="type">Preprint</span></div><h3><a href="{{ '/publication/shannon-or-capacity-hedetniemi/' | relative_url }}">Hedetniemi's conjecture for Shannon OR-capacity: counterexamples and asymptotic separation</a></h3><p class="authors">Julius A. Zeiss</p><div class="paper-links"><a href="https://arxiv.org/abs/2610.41977">arXiv <span aria-hidden="true">↗</span></a></div></article>
         <article class="publication"><div class="publication-meta"><span>2026</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2609.15757">Optimal entanglement-assisted source coding under a balanced-difference promise</a></h3><p class="authors">Julius A. Zeiss</p><div class="paper-links"><a href="https://arxiv.org/abs/2609.15757">arXiv <span aria-hidden="true">↗</span></a><a href="https://github.com/JuliusAZeiss/Lean-Verification-for-Optimal-entanglement-assisted-source-coding-under-a-balanced-di-erence-promise">Lean verification <span aria-hidden="true">↗</span></a></div></article>
         <article class="publication"><div class="publication-meta"><span>2026</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2601.15184">Finite de Finetti for convex bodies and polynomial optimization</a></h3><p class="authors">Julius A. Zeiss, Gereon Koßmann, René Schwonnek, Martin Plávala</p><div class="paper-links"><a href="https://arxiv.org/abs/2601.15184">arXiv <span aria-hidden="true">↗</span></a></div></article>
         <article class="publication"><div class="publication-meta"><span>2025</span><span class="type">Preprint</span></div><h3><a href="https://arxiv.org/abs/2507.12302">Approximating fixed size quantum correlations in polynomial time</a></h3><p class="authors">Julius A. Zeiss, Gereon Koßmann, Omar Fawzi, Mario Berta</p><div class="paper-links"><a href="https://arxiv.org/abs/2507.12302">arXiv <span aria-hidden="true">↗</span></a></div></article>
@@ -65,6 +66,7 @@ redirect_from:
     <section class="wrap section section-grid" aria-labelledby="updates-heading">
       <div class="section-heading"><h2 id="updates-heading">Recent updates</h2><p>Research, talks, and conversations.</p></div>
       <div>
+        <article class="update"><time datetime="2026-10-30">30 Oct<br>2026</time><p><strong>New preprint.</strong> <a href="{{ '/publication/shannon-or-capacity-hedetniemi/' | relative_url }}">Hedetniemi's conjecture for Shannon OR-capacity: counterexamples and asymptotic separation.</a> Counterexamples connect graph products to limits on zero-error communication under random switching.</p></article>
         <article class="update"><time datetime="2026-10">Oct 2026</time><p><strong>New preprint.</strong> <a href="https://arxiv.org/abs/2610.24542">Comment on “The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank”.</a></p></article>
         <article class="update"><time datetime="2026-10-23">23 Oct<br>2026</time><p><strong>AI Workshop.</strong> Open discussion on AI in teaching, supervision, and everyday research. <a href="{{ site.baseurl }}/workshop/#session-2026-10-23">Session details <span aria-hidden="true">↗</span></a></p></article>
       </div>
