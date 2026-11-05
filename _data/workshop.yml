@@ -88,6 +88,29 @@
     another. Everyone is welcome, and no preparation or prior experience is
     needed.
 
+- date: 2026-11-06
+  time: "15:00 - 16:00"
+  title: "Weight-Space Programming and specialized local models"
+  speaker: "Julius A. Zeiss"
+  room: "Seminar room 116, Institute for Quantum Information (MBP2 building), RWTH Aachen University"
+  description: >-
+    We will discuss the recent work
+    [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/),
+    which explores how large language models can inspect and directly edit
+    neural network weights. We will look at the reported results, their current
+    limitations, and how this approach relates to training and fine-tuning models.
+
+    The main focus will be how the research groups at our institute could train
+    or adapt highly specialized open-source models for well-defined scientific
+    tasks and run them locally on laptops or other small hardware. We will
+    discuss possible use cases, suitable training data, how to evaluate
+    reliability, and the hardware needed for training and local inference.
+    Bring ideas for tasks that would be useful in your own group. Everyone is
+    welcome, and no prior experience is required.
+  materials:
+    - name: "Reading: Sparks of Weight-Space Programming"
+      url: https://rikiyat.github.io/blog/weight-space-programming/
+
 - date: TBA
   title: "Creating your personal knowledge base"
   speaker: "Julius A. Zeiss"

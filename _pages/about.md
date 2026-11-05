@@ -66,9 +66,9 @@ redirect_from:
     <section class="wrap section section-grid" aria-labelledby="updates-heading">
       <div class="section-heading"><h2 id="updates-heading">Recent updates</h2><p>Research, talks, and conversations.</p></div>
       <div>
+        <article class="update"><time datetime="2026-11-06">6 Nov<br>2026</time><p><strong>AI Workshop.</strong> Weight-Space Programming and specialized local models: how our institute's research groups could train models for scientific tasks and run them on small hardware. Friday, 15:00–16:00. <a href="{{ site.baseurl }}/workshop/#session-2026-11-06">Session details <span aria-hidden="true">↗</span></a></p></article>
         <article class="update"><time datetime="2026-10-30">30 Oct<br>2026</time><p><strong>New preprint.</strong> <a href="{{ '/publication/shannon-or-capacity-hedetniemi/' | relative_url }}">Hedetniemi's conjecture for Shannon OR-capacity: counterexamples and asymptotic separation.</a> Counterexamples connect graph products to limits on zero-error communication under random switching.</p></article>
         <article class="update"><time datetime="2026-10">Oct 2026</time><p><strong>New preprint.</strong> <a href="https://arxiv.org/abs/2610.24542">Comment on “The polarization hierarchy for polynomial optimization over convex bodies, with applications to nonnegative matrix rank”.</a></p></article>
-        <article class="update"><time datetime="2026-10-23">23 Oct<br>2026</time><p><strong>AI Workshop.</strong> Open discussion on AI in teaching, supervision, and everyday research. <a href="{{ site.baseurl }}/workshop/#session-2026-10-23">Session details <span aria-hidden="true">↗</span></a></p></article>
       </div>
     </section>
   </div>
