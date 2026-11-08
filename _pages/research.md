@@ -24,6 +24,27 @@ Alongside these algorithmic questions, I study the power and limitations of quan
 
 Graph problems provide a common thread through this work, connecting fundamental mathematical questions with operational tasks in quantum information.
 </div>
+<section class="research-video" id="quantum-graph-colouring" aria-labelledby="quantum-graph-colouring-title" markdown="0">
+  <div class="research-video-copy">
+    <p class="eyebrow">Research in brief · 1:13</p>
+    <h3 id="quantum-graph-colouring-title">Quantum graph colouring</h3>
+    <p id="quantum-graph-colouring-description">How can shared entanglement let two players win a colouring game with fewer colours than a classical strategy allows? A 73-second introduction to one of the central ideas behind my research.</p>
+    <div class="research-video-related">
+      <h4>Related research</h4>
+      <ul>
+        <li><a href="{{ '/publication/quantum-hedetniemi-counterexample/' | relative_url }}">A counterexample to the quantum Hedetniemi conjecture <span aria-hidden="true">→</span></a></li>
+        <li><a href="{{ '/publication/optimal-entanglement-assisted-source-coding/' | relative_url }}">Optimal entanglement-assisted source coding under a balanced-difference promise <span aria-hidden="true">→</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <figure class="research-video-player">
+    <video controls playsinline preload="none" width="1080" height="1920" poster="{{ '/files/videos/quantum-graph-colouring-poster.jpg' | relative_url }}" aria-labelledby="quantum-graph-colouring-title" aria-describedby="quantum-graph-colouring-description quantum-graph-colouring-credit">
+      <source src="{{ '/files/videos/quantum-graph-colouring.mp4' | relative_url }}" type="video/mp4">
+      <a href="{{ '/files/videos/quantum-graph-colouring.mp4' | relative_url }}">Watch the quantum graph colouring video</a>.
+    </video>
+    <figcaption id="quantum-graph-colouring-credit">Example: Mančinska &amp; Roberson (2016). <a href="{{ '/files/videos/quantum-graph-colouring.mp4' | relative_url }}">Open video <span aria-hidden="true">↗</span></a></figcaption>
+  </figure>
+</section>
 </section>
 
 <section class="theme-section" id="verification" markdown="1">

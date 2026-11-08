@@ -6,6 +6,7 @@ venue: arXiv
 permalink: /publication/optimal-entanglement-assisted-source-coding/
 date: 2026-09-14
 authors: "Julius A. Zeiss"
+excerpt: ""
 arxiv: "2609.15757"
 paperurl: "https://arxiv.org/abs/2609.15757"
 citation: 'Julius A. Zeiss (2026). <i>Optimal entanglement-assisted source coding under a balanced-difference promise</i>. arXiv:2609.15757.'
@@ -20,3 +21,5 @@ abstract: |
 
   Together with an explicit odd-parity bipartition, this determines the quantum chromatic number as $$n$$ in even parity and $$2$$ in odd parity, where the classical chromatic number is also $$2$$. All lemmas, theorems, and corollaries are formalized and verified in Lean.
 ---
+
+<p class="publication-explainer"><a href="{{ '/research/' | relative_url }}#quantum-graph-colouring"><span aria-hidden="true">▶</span> Background: quantum graph colouring</a> <span class="video-duration">· 1:13 explainer</span></p>

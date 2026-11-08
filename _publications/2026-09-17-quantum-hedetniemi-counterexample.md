@@ -6,6 +6,7 @@ venue: arXiv
 permalink: /publication/quantum-hedetniemi-counterexample/
 date: 2026-09-17
 authors: "Julius A. Zeiss"
+excerpt: ""
 arxiv: "2609.20690"
 paperurl: "https://arxiv.org/abs/2609.20690"
 citation: 'Julius A. Zeiss (2026). <i>A counterexample to the quantum Hedetniemi conjecture</i>. arXiv:2609.20690.'
@@ -26,3 +27,5 @@ abstract: |
 
   The graph constructions, the certificates and the counterexample statements in the projective formulation are formalized in Lean 4.
 ---
+
+<p class="publication-explainer"><a href="{{ '/research/' | relative_url }}#quantum-graph-colouring"><span aria-hidden="true">▶</span> Background: quantum graph colouring</a> <span class="video-duration">· 1:13 explainer</span></p>
