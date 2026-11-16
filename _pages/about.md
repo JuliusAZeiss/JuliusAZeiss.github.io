@@ -13,7 +13,7 @@ redirect_from:
       <p class="eyebrow">Quantum information theory</p>
       <h1 id="name">Julius A. Zeiss</h1>
       <p class="role">PhD researcher · RWTH Aachen University</p>
-      <p class="intro">I develop classical algorithms for difficult quantum problems, study the power and limitations of quantum entanglement, and use AI to make provable algorithms more effective in practice.</p>
+      <p class="intro">I develop classical algorithms for difficult quantum problems, study the power and limitations of quantum entanglement, and train neural networks to make provable algorithms more effective in practice.</p>
       <p class="intro-secondary">Final-year PhD student at the Institute for Quantum Information, supervised by Prof. Mario Berta.</p>
       <div class="hero-actions">
         <a class="button primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
