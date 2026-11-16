@@ -11,8 +11,8 @@ redirect_from:
   - /resume-json
 ---
 
-<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v4.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
-<nav class="section-nav" aria-label="On this page"><a href="#education">Education</a><a href="#publications">Publications</a><a href="#selected-talks">Talks</a><a href="#teaching">Teaching</a><a href="#service">Service</a></nav>
+<div class="info-panel"><p>This page gives a short-form overview. The full CV includes all talks, posters, teaching, and service.</p><a href="{{ '/files/CV_JAZ_revised_v5.pdf' | relative_url }}" class="button primary">Download full CV (PDF) <span aria-hidden="true">↗</span></a></div>
+<nav class="section-nav" aria-label="On this page"><a href="#education">Education</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#selected-talks">Talks</a><a href="#teaching">Teaching</a><a href="#service">Service</a></nav>
 
 <h2 class="section-title" id="education">Education</h2>
 <div class="archive-list">
@@ -32,6 +32,11 @@ redirect_from:
 <article class="entry-row"><div class="entry-date">2026</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2601.15184">Finite de Finetti for convex bodies and polynomial optimization</a></h3><p class="entry-meta">J. A. Zeiss, G. Koßmann, R. Schwonnek, M. Plávala</p><p class="entry-meta">under review at Mathematical Programming A</p><p class="entry-links"><a href="https://arxiv.org/abs/2601.15184">arXiv:2601.15184 <span aria-hidden="true">↗</span></a></p></div></article>
 <article class="entry-row"><div class="entry-date">2025</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2507.12302">Approximating fixed size quantum correlations in polynomial time</a></h3><p class="entry-meta">J. A. Zeiss, G. Koßmann, O. Fawzi, M. Berta</p><p class="entry-meta">under review at PRX Quantum</p><p class="entry-links"><a href="https://arxiv.org/abs/2507.12302">arXiv:2507.12302 <span aria-hidden="true">↗</span></a></p></div></article>
 <article class="entry-row"><div class="entry-date">2025</div><div class="entry-body"><h3 class="entry-title"><a href="https://arxiv.org/abs/2507.12326">On approximate quantum error correction for symmetric noise</a></h3><p class="entry-meta">G. Koßmann, J. A. Zeiss, O. Fawzi, M. Berta</p><p class="entry-meta">under review at Quantum</p><p class="entry-links"><a href="https://arxiv.org/abs/2507.12326">arXiv:2507.12326 <span aria-hidden="true">↗</span></a></p></div></article>
+</div>
+
+<h2 class="section-title" id="projects">Research projects</h2>
+<div class="archive-list">
+  <article class="entry-row"><div class="entry-date">Since Sep 2026</div><div class="entry-body"><h3 class="entry-title">Neural networks for quantum information problems</h3><p class="entry-meta">Group project · Institute for Quantum Information, RWTH Aachen</p><p>Initiated a project in which members train compact, specialized models for problems in quantum information and algorithms and run them on local hardware. Goal: complement provable algorithms with supervised and reinforcement learning to improve their performance in practical applications. Own work: AI-agent-driven training of neural networks that search for strategies for non-local games, including problem formulation, training data, and evaluation of results. Ongoing.</p></div></article>
 </div>
 
 <h2 class="section-title" id="selected-talks">Selected talks</h2>

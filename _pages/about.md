@@ -20,7 +20,7 @@ redirect_from:
         <a class="button" href="mailto:julius.zeiss@icloud.com">Get in touch <span aria-hidden="true">↗</span></a>
       </div>
       <div class="profile-links" aria-label="Research profiles">
-        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v4.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
+        <a href="{{ site.baseurl }}/files/CV_JAZ_revised_v5.pdf">CV (PDF) <span aria-hidden="true">↗</span></a>
         <a href="https://scholar.google.com/citations?user=H0WdhxQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
         <a href="{{ site.author.arxiv | escape }}">arXiv <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/JuliusAZeiss">GitHub <span aria-hidden="true">↗</span></a>
@@ -45,10 +45,10 @@ redirect_from:
   <section class="wrap section section-grid" id="research" aria-labelledby="research-heading">
     <div class="section-heading"><h2 id="research-heading">Research</h2><p>Mathematics and algorithms for quantum information.</p><a class="text-link" href="{{ "/research/" | relative_url }}">Research profile <span aria-hidden="true">↗</span></a></div>
     <div>
-      <a class="research-row" href="{{ '/research/' | relative_url }}#algorithms" aria-labelledby="research-algorithms-title"><span class="number" aria-hidden="true">01</span><div><h3 id="research-algorithms-title">Algorithms with provable guarantees</h3><p>I combine group theory, quantum Shannon theory, and convex optimization to obtain rigorous, computable bounds, using de Finetti theorems and symmetry-reduced semidefinite programming hierarchies.</p></div></a>
+      <a class="research-row" href="{{ '/research/' | relative_url }}#algorithms" aria-labelledby="research-algorithms-title"><span class="number" aria-hidden="true">01</span><div><h3 id="research-algorithms-title">Algorithms with provable guarantees</h3><p>I combine group theory, quantum Shannon theory, and convex optimization to obtain rigorous, computable bounds, using de Finetti theorems and symmetry-reduced semidefinite programming hierarchies, and explore how machine learning can improve their performance in practice.</p></div></a>
       <a class="research-row" href="{{ '/research/' | relative_url }}#entanglement" aria-labelledby="research-entanglement-title"><span class="number" aria-hidden="true">02</span><div><h3 id="research-entanglement-title">Entanglement and non-local games</h3><p>I study how entanglement changes communication tasks and classical combinatorial constraints, with a particular interest in non-local games such as quantum graph coloring.</p></div></a>
       <p class="research-video-link"><a class="text-link" href="{{ '/research/' | relative_url }}#quantum-graph-colouring"><span aria-hidden="true">▶</span> Watch: Quantum graph colouring <span class="video-duration">· 1:13</span></a></p>
-      <a class="research-row" href="{{ '/research/' | relative_url }}#verification" aria-labelledby="research-verification-title"><span class="number" aria-hidden="true">03</span><div><h3 id="research-verification-title">AI and formally verified mathematics</h3><p>I explore AI tools for scientific work and formal verification in Lean, connecting mathematical reasoning with machine-checked proofs.</p></div></a>
+      <a class="research-row" href="{{ '/research/' | relative_url }}#verification" aria-labelledby="research-verification-title"><span class="number" aria-hidden="true">03</span><div><h3 id="research-verification-title">AI for science and formally verified mathematics</h3><p>I use AI agents to train neural networks that complement provable algorithms in practice, for example by searching for strategies in non-local games, and I formalize proofs in Lean.</p></div></a>
       <p class="research-note">My work also connects to quantum error correction and quantum causal compatibility.</p>
     </div>
   </section>
